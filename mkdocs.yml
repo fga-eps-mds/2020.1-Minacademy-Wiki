@@ -1,0 +1,15 @@
+
+site_name: Grupo 4
+theme:
+  name: 'material'
+
+nav:
+    - 'Home': 'home.md'
+    - 'Documentos':
+        - 'Documento de Visão': 'documentos/doc_visao.md'
+    - 'Produto':
+        - 'Roadmaps': 'produto/roadmaps.md'
+    #- 'Planos':
+    - 'Sprints':
+        - 'Sprint 0': 'sprints/sprint_0.md'
+        - 'Sprint 1': 'sprints/sprint_1.md'
