@@ -33,19 +33,19 @@ Atualmente realizar cursos presenciais são inviáveis diante o quadro clínico 
 
 _Nome_ | _Descrição_ | _Responsabilidade_
 -----|-----------|-----------------
-Equipe de Gestão de Projeto. | Grupo de alunos da UnB matriculados na disciplina de Engenharia de Produto de Software. | Gerenciar a equipe, executando o planejamento, garantindo a comunicação entre os membros da equipe e acompanhando o desenvolvimento do produto.
-Equipe de Desenvolvimento de Projeto | Grupo de alunos da UnB matriculados na disciplina de Métodos de Desenvolvimento de Software. | Auxiliar o planejamento e realizar o desenvolvimento, implantação e testes do produto.
-Clientes | Grupo de mentores e discentes da plataforma "Django Girls" | Informar os requisitos necessários , expor os erros, além de acompanhar o progresso da aplicação e validá-la
+Equipe de Gestão de Projeto. | Grupo de alunos da UnB matriculados na disciplina de Engenharia de Produto de Software. | Gerenciar a equipe, executando o planejamento, sustentando a comunicação entre os membros da equipe e acompanhando o desenvolvimento do produto.
+Equipe de Desenvolvimento de Projeto | Grupo de alunos da UnB matriculados na disciplina de Métodos de Desenvolvimento de Software. | Colaborar no planejamento e realizar o desenvolvimento, implantação e testes do produto.
+Clientes | Grupo de mentores e aprendizes da plataforma "Django Girls" | Informar os requisitos necessários , expor os erros, além de acompanhar o progresso da aplicação e validá-la
 
 ### 3.2 __Resumo dos Usuários__
 
-_Nome_ | _Descrição_ | _Parte Interessada_
--------|-------------|------------------
+_Nome_ | _Descrição_ |      |
+-------|-------------|------|
 Aprendizes do curso "Django Girls"| Mulheres interessadas em fazer o "Tutorial Django Girls. Irão utilizar a aplicação com o intuito de fazer todo o "Tutorial Django Girls" com auxilio de mentores de forma remota e no tempo em que desejar concluir todo ele|
-Mentores do curso "Django Girls" |Irão utilizar a aplicação com o objetivo de dar suporte de forma remota às aprendizes, de acordo com a demanda |
+Mentores da organização "Django Girls" |Irão utilizar a aplicação com o objetivo de dar suporte de forma remota às aprendizes, de acordo com a demanda |
 
 ### 3.3 __Ambiente do Usuário:__
-Será necessário ter acesso a um computador desktop ou notebook com acesso a internet, com algum navegador com Chrome, Firefox ou Safari.
+Será necessário ter acesso a um computador desktop ou notebook com acesso a internet, com algum navegador como, por exemplo, Chrome, Firefox ou Safari.
 
 ### 3.4 __Perfil das Partes Interessadas:__
 #### 3.4.1 __Equipe de Gestão de Projeto__
@@ -54,30 +54,30 @@ Será necessário ter acesso a um computador desktop ou notebook com acesso a in
 |_Representantes_  | Gabriela Medeiros da Silva, Geovana Ramos Sousa Silva|
 |_Descrição_ | Gestores de projeto.|
 |_Tipo_| Discentes da disciplina de Engenharia de Produto de Software na Universidade de Brasília.
-|_Critérios de Sucesso_| Manter a motivação, harmonia e organização da equipe, por meio de ações que promovam o nivelamento dos membros. Além de sistematizar as etapas de desenvolvimento do projeto, visando o cumprimento dos prazos estabelecidos junto à qualidade prevista da aplicação.|
+|_Critérios de Sucesso_| Preservar a motivação, simetria e organização da equipe, por meio de ações que proporcionam o nivelamento dos membros. Além de sistematizar as etapas de desenvolvimento do projeto, objetivando o cumprimento dos prazos estabelecidos junto à qualidade prevista da aplicação.|
 |_Envolvimento_| Alto|
 |_Comentários ou Problemas_| Fazer com que a equipe cumpra os prazos previstos, tendo em vista a relação entre os horários disponíveis dos membros e as atividades a serem executadas.|
 
 #### 3.4.2 __Equipe de Desenvolvimento de Projeto__
 |   	|     	|
 --------|---------|
-|_Representantes_  |Nomes MDS |
+|_Representantes_  |Eduardo Nunes Pícolo, Estevão de Jesus Reis, Jaime Juan de Castro Feliciano Damasceno, Lucas Melo dos Santos, Pedro de Miranda Haick, Rodrigo Carvalho dos Santos |
 |_Descrição_ | Desenvolvedores de Software.|
 |_Tipo_| Discentes da disciplina de Métodos de Desenvolvimento de Software na Universidade de Brasília.|
-|_Critérios de Sucesso_| Entregar o que for proposto, cumprindo os prazos de entrega e mantendo a qualidade do produto.|
+|_Critérios de Sucesso_| Realizar o que for proposto, cumprindo os prazos de entrega e mantendo a qualidade do produto.|
 |_Envolvimento_| Alto|
-|_Comentários ou Problemas_|Equipe inexperiente no desenvolvimento de softwares, pouco conhecimento das ferramentas que serão utilizadas, impossibilidade de se reunirem presencialmente.|
+|_Comentários ou Problemas_|Equipe inexperiente no desenvolvimento de softwares, com conhecimento insuficiente das ferramentas que serão utilizadas, impossibilidade de se reunirem presencialmente.|
 
 
 #### 3.4.3 __Cliente__
 |     	|    	|
 |--------|---------|
-|_Representantes_  | mentores da plataforma Django Girls|
+|_Representantes_  | mentores da organização Django Girls|
 |_Descrição_ | Responsável pelas demandas e validação do projeto.|
-|_Tipo_| |
-|_Critérios de Sucesso_| - |
+|_Tipo_| - |
+|_Critérios de Sucesso_| Expressar com clareza a proposta do projeto, detalhando funcionalidades esperadas, entre outros requisitos desejados para a aplicação. Além disso, deve testar a aplicação, observando possíveis erros ou inconformidades.|
 |_Envolvimento_| Médio|
-|_Comentários ou Problemas_| - |
+|_Comentários ou Problemas_| Dificuldade de agendar horários compatíveis entre os membros envolvidos na gerência e desenvolvimento da aplicação para reunião.|
 
 ### 3.5 __Perfil do Usuário__
 
@@ -85,31 +85,28 @@ Será necessário ter acesso a um computador desktop ou notebook com acesso a in
 
 |     	|    	|
 |--------|---------|
-|_Representantes_  | mentores da plataforma Django Girls|
+|_Representantes_  | Mentores da plataforma Django Girls|
 |_Descrição_ | Os mentores são responsaveis por descrever como desejam a aplicação, suas funcionalidades, aparência, regra de negócio entre outros, periodicamente testando o produto, apontando os erros e validando a aplicação de modo geral |
-|_Tipo_| |
+|_Tipo_| - |
 |_Critérios de Sucesso_| Capacidade de conectar o mentor com um ou mais aprendizes de forma remota, tornando possível o auxílio do professor ao aluno a distância em um tempo flexível|
 |_Envolvimento_| Médio|
 |_Comentários ou Problemas_| - |
 
 
-#### 3.5.2 __Aprendizes da Plataforma Django Girls__
+#### 3.5.2 __Aprendiz da Plataforma Django Girls__
 
 |     	|    	|
 |--------|---------|
-|_Representantes_  | aprendizes da plataforma Django Girls|
+|_Representantes_  | Aprendizes da plataforma Django Girls|
 |_Descrição_ | As aprendizes não terão responsabilidades no desenvolvimento da aplicação em si, porém precisarão se cadastrar para ter acesso ao tutorial.|
-|_Tipo_| |
+|_Tipo_| - |
 |_Critérios de Sucesso_| Capacidade de se conectar com o um mentor de forma remota, tornando possível ter auxílio do professor e tirar suas dúvidas à distância em um tempo flexível|
 |_Envolvimento_| Baixo|
 |_Comentários ou Problemas_| - |
 
 
 ### 3.6 __Alternativas e concorrência__
-Fazer o tutorial presencialmente com o mentor, em eventos propostos pela Django Girls, em apenas um dia.
-
-
-
+Fazer o tutorial presencialmente com o mentor, em eventos propostos pela Django Girls, no tempo em que o evento acontece.
 
 
 ## __4. Visão Geral do Produto__
