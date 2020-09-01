@@ -13,7 +13,7 @@ Rodrigo Carvalho dos Santos	|Rocsantos	|ro12062000@gmail.com| MDS
 
 ## Tema
 
-Plataforma para suporte aos workshops do Django Girls. O objetivo geral é permitir que as ações realizadas nos workshops possam acontecer remotamente e sem a necessidade de um tempo pré definido de realização, ou seja, as aprendizes podem realizar o tutorial no seu tempo e ter acesso ao suporte de seus mentores por meio da plataforma. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md)
+Plataforma para suporte aos workshops do Django Girls. O objetivo geral é permitir que as ações realizadas nos workshops possam acontecer remotamente e sem a necessidade de um tempo pré definido de realização, ou seja, as aprendizes podem realizar o tutorial no seu tempo e ter acesso ao suporte de seus mentores por meio da plataforma. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
 
 ## Organização do Repositório
 
