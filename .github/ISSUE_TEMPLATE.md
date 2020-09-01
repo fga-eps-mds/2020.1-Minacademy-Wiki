@@ -2,13 +2,13 @@
 
 ## Descrição
 
-Uma breve descrição do que essa issue trata.
+[Uma breve descrição do que essa issue trata]
 
 ## Solução
 
-Se for um erro, qual o comportamento esperado?
+[Se for um erro, qual o comportamento esperado?]
 
-Se for uma featura nova entrar em detalhes sobre o que deve ser feito.
+[Se for uma featura nova entrar em detalhes sobre o que deve ser feito.]
 
 ## Critérios de Aceitação (se aplicável)
 
