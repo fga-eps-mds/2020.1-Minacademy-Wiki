@@ -8,6 +8,7 @@ nav:
     - Documentos:
         - Documento de Visão: documentos/doc_visao.md
         - Especificação Suplementar: documentos/doc_esp-suplementar.md
+        - Documento de Arquitetura: documentos/doc_arqui.md
     - Produto:
         - Roadmaps: produto/roadmaps.md
         - Backlog do Produto: produto/product_backlog.md
