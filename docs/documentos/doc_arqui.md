@@ -94,3 +94,24 @@ MongoDB é um software de banco de dados orientado a documentos livre, de códig
     
 ## _2.4.Diagrama de Relações_
 ![Diagrama-de-Arquitetura-de-Software](./imagens/diag-arqui.png)[10]
+
+# _3. Metas e Restrições da Arquitetura_
+## 3.1 Usabilidade
+A aplicação contará com design responsivo, tendo um bom ajuste e posicionamento dos elementos em tela, com uma interface clara e intuitiva.
+
+## 3.2 Portabilidade
+A aplicação poderá ser acessada através de um navegador como, por exemplo,  Mozilla Firefox ou Google Chrome.
+
+## 3.3 Restrições de Design
+A aplicação ser desenvolvida em JavaScript, HTML e CSS, utilizando os frameworks NodeJS e ReactJS, e deve ser modelada para o banco MongoDB.
+
+O projeto deve ser estruturado nos padrões da arquitetura em 3 camadas(3-Tier), mais especificamente a arquitetura MERN, com as camadas de “Apresentação”, “Negócio” e “Dados”.
+
+Capaz de sofrer alterações e implementações tanto no Back-End quanto o Front-End.
+
+# _4. Tamanho e Desempenho_
+A arquitetura foi planejada para que a aplicação atenda de forma satisfatória os requisitos do produto e permita uma fácil implementação e expansão de funcionalidades, sem a necessidade de dimensionar todo o sistema.
+
+Na aplicação será abordado o conceito de SPA(Single-Page-Application), que possibilita a renderização dinâmica de conteúdo ao contrário de um carregamento completo da página, reduzindo o tempo de espera e proporcionando uma melhor e mais fluida experiência para o usuário.
+
+O tempo de resposta da aplicação web irá depender da velocidade de conexão com a internet do usuário e da a conexão com o banco de dados, assim como a disponibilidade do servidor.
