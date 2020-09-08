@@ -48,7 +48,7 @@ Nenhuma
 - Pouca comunicação entre os pareamentos. As duplas não opinaram no trabalho das outras.
 - As orientações de teste da Wiki feitas no planejamento não foram seguidas.
 - Faltas de membros de MDS sem justificativa na reunião de sprint.
-- Compartilhar o andamento das entregas desde o início. 
+- Compartilhamento tardio do andamento das entregas por parte de MDS.
 - Desorganização de EPS na sexta.
 
 **Pontos Positivos**
