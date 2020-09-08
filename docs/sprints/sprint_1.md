@@ -16,6 +16,12 @@ Pontos Entregues: 15 pontos <br>
 
 ## Planejamento
 
+**Faltas** 
+
+Nenhuma. Todos presentes
+
+**Tarefas**
+
 Tarefa   | Pontos | Responsáveis
 --------- | ------ |
 TS01 - Elaborar Documento de Visão | 5 | Eduardo, Estevão, Jaime, Lucas, Pedro, Rodrigo
@@ -28,6 +34,10 @@ TS06 - Configurar plataformas de comunicação | 1 | Geovana
 **Total de Pontos** | **15**
 
 ## Resultados
+
+**Faltas** 
+
+Eduardo - Relatou problemas de conexão.
 
 **Dívidas**
 
