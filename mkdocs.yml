@@ -1,21 +1,20 @@
-
 site_name: Grupo 4
 theme:
   name: material
 
 nav:
-    - Início: index.md
-    - Documentos:
-        - Documento de Visão: documentos/doc_visao.md
-        - Documento de Arquitetura: documentos/doc_arqui.md
-        - Especificação Suplementar: documentos/doc_esp-suplementar.md
-    - Produto:
-        - Roadmaps: produto/roadmaps.md
-        - Backlog do Produto: produto/product_backlog.md
-        - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
-    - Gestão:
-        - Plano de Comunicação: gestao/plano_comunicacao.md
-    - Sprints:
-        - Sprint 1: sprints/sprint_1.md
-        - Sprint 2: sprints/sprint_2.md
-        
+  - Início: index.md
+  - Documentos:
+      - Documento de Visão: documentos/doc_visao.md
+      - Documento de Arquitetura: documentos/doc_arqui.md
+      - Especificação Suplementar: documentos/doc_esp-suplementar.md
+      - Termo de Abertura do Projeto: documentos/tap.md
+  - Produto:
+      - Roadmaps: produto/roadmaps.md
+      - Backlog do Produto: produto/product_backlog.md
+      - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
+  - Gestão:
+      - Plano de Comunicação: gestao/plano_comunicacao.md
+  - Sprints:
+      - Sprint 1: sprints/sprint_1.md
+      - Sprint 2: sprints/sprint_2.md
