@@ -11,7 +11,7 @@
 
 ## Login
 
-### Para ter acesso ao curso é requisitado o login e senha.
+ Para ter acesso ao curso é requisitado o login e senha.
 
 ![](prototipo_alta/09-login-screen.png "Login")
 
