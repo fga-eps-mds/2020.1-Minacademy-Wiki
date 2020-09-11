@@ -1,4 +1,4 @@
-site_name: Grupo 4
+site_name: Minacademy
 theme:
   name: material
 
@@ -15,6 +15,7 @@ nav:
       - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
   - Gestão:
       - Plano de Comunicação: gestao/plano_comunicacao.md
+      - Plano de Gestão de Riscos: gestao/plano_riscos.md
   - Sprints:
       - Sprint 1: sprints/sprint_1.md
       - Sprint 2: sprints/sprint_2.md
