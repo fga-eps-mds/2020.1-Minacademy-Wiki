@@ -46,7 +46,9 @@ Este documento apresenta as características arquiteturais do projeto <nome_do_p
 
 [9]_MVC_. Disponível em <https://pt.wikipedia.org/wiki/MVC#:~:text=MVC%20%C3%A9%20o%20acr%C3%B4nimo%20de,a%20apresenta%C3%A7%C3%A3o%20dos%20dados%20e>. Acesso em 04 de Setembro de 2020.
 
-[10]_diag-arqui_. Disponível na pasta do projeto em <coloco o nome endereço do repositório>
+[10]_diag-bd_. Disponível na pasta do projeto em <https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-bd.png> Acesso em 11 de Setembro de 2020.
+
+[11]_diag-arqui_. Disponível na pasta do projeto em <https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-arqui.png> Acesso em 11 de Setembro de 2020
 
 ### 1.5.Visão Geral
 
@@ -59,7 +61,7 @@ Este documento apresenta as características arquiteturais do projeto <nome_do_p
 |Visão de implementação| Descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.|
 
 ## 2.Representação da Arquitetura
-A arquitetura do projeto <nome_do_projeto> é composta por frontend e backend desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. O modelo de arquitetura que será utilizada é Modelo em 3 Camadas(3-Tier), expecificamente o modelo MERN Stack.
+A arquitetura do projeto **minacademy** é composta por frontend e backend desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. O modelo de arquitetura que será utilizada é Modelo em 3 Camadas(3-Tier), expecificamente o modelo MERN Stack.
 
 O modelo 3-Tier, derivado do modelo 'n' camadas, organizando a aplicação nas camadas de apresentação, de négocio e de dados. A separação em camadas lógicas torna os sistemas mais flexíveis, permitindo que as partes possam ser alteradas de forma independente. As funcionalidades da camada de negócio podem ser divididas em classes e essas classes podem ser agrupadas em pacotes ou componentes, reduzindo as dependências entre as classes e pacotes; podem ser reutilizadas por diferentes partes do aplicativo e até por aplicativos diferentes. O modelo de 3 camadas tornou-se a arquitetura padrão para sistemas corporativos com base na Web.[1]
 
@@ -93,9 +95,12 @@ O Express é um framework para aplicativo da web do Node.js mínimo e flexível 
 
 #### 2.3.1 MongoDB
 MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB armazena dados em documentos do tipo JSON. Suas características permitem com que as aplicações modelem informações de modo muito mais natural, pois os dados podem ser aninhados em hierarquias complexas e continuar a ser indexáveis e fáceis de buscar[7].
+
+#### 2.3.2 Modelagem do Banco de Dados
+![Diagrama-de-modelagem-do-Banco-de-Dados](./imagens/diag-bd.png "Diagrama do Banco de Dados")[10]
     
 ### 2.4.Diagrama de Relações
-![Diagrama-de-Arquitetura-de-Software](./imagens/diag-arqui.png)[10]
+![Diagrama-de-Arquitetura-de-Software](./imagens/diag-arqui.png)[11]
 
 ## 3. Metas e Restrições da Arquitetura_
 ### 3.1 Usabilidade
