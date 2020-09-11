@@ -8,6 +8,7 @@
 |03/09/2020| 0.2.0| Inserção do tópico "Tamanho e Desempenho" | Eduardo |
 |03/09/2020| 0.3.0| Inserção do tópico "Metas e Restrições da Arquitetura" | Eduardo |
 |04/09/2020| 0.3.1| Correções de formatação de Referência e Inserção de imagens nos tópicos "2.1.3 Representação arquitetural da camada de apresentação" e "2.4.Diagrama de Relações" | Estevao|
+|11/09/2020| 0.4.0| Inserção do tópico Diagrama da Modelagem do Banco de Dados | Rodrigo e Estevão
 
 ## 1.Introdução
 
