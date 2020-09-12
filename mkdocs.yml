@@ -13,6 +13,7 @@ nav:
       - Roadmaps: produto/roadmaps.md
       - Backlog do Produto: produto/product_backlog.md
       - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
+      - Protótipo de Alta Fidelidade: produto/prototipo_alta.md
   - Gestão:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
