@@ -1,6 +1,15 @@
-site_name: Minacademy
+site_name: " "
 theme:
   name: material
+  logo: logo.png
+  language: pt
+  palette:
+    primary: deep purple
+    accent: deep purple
+
+extra_css:
+  - stylesheets/extra.css
+
 
 nav:
   - Início: index.md
