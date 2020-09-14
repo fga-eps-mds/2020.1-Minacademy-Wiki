@@ -13,10 +13,10 @@
 ## 1.Introdução
 
 ### 1.1.Finalidade
-Este documento tem como finalidade apresentar a arquitetura do projeto <nome_do_projeto>,oferecendo uma visão geral arquitetural do sistema que será implementado, possibilitando assim que os envolvidos no projeto tenham conhecimento de como a aplicação será subdivida e quais serão as funções de cada componente.
+Este documento tem como finalidade apresentar a arquitetura do projeto Minacademy,oferecendo uma visão geral arquitetural do sistema que será implementado, possibilitando assim que os envolvidos no projeto tenham conhecimento de como a aplicação será subdivida e quais serão as funções de cada componente.
 
 ### 1.2.Escopo
-Este documento apresenta as características arquiteturais do projeto <nome_do_projeto>, expondo detalhadamente as soluções arquiteturais idealizadas e estabelecidas para o projeto, de modo a ser utilizado como base para a edificação do projeto pelos desenvolvedores designados para o projeto.
+Este documento apresenta as características arquiteturais do projeto Minacademy, expondo detalhadamente as soluções arquiteturais idealizadas e estabelecidas para o projeto, de modo a ser utilizado como base para a edificação do projeto pelos desenvolvedores designados para o projeto.
 
 ### 1.3.Definições, acrônimos, abreviações
 |Definições/Acrônimos/Abreviações| Significado|

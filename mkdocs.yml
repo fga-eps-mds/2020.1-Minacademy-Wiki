@@ -1,6 +1,15 @@
-site_name: Minacademy
+site_name: " "
 theme:
   name: material
+  logo: logo.png
+  language: pt
+  palette:
+    primary: deep purple
+    accent: deep purple
+
+extra_css:
+  - stylesheets/extra.css
+
 
 nav:
   - Início: index.md
@@ -20,3 +29,4 @@ nav:
   - Sprints:
       - Sprint 1: sprints/sprint_1.md
       - Sprint 2: sprints/sprint_2.md
+      - Sprint 3: sprints/sprint_3.md
