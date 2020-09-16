@@ -34,16 +34,24 @@ O tempo de entrega desse projeto é baseado na duração de um semestre das disc
 | _Release_ 1 | Entre 03/10 e 09/10 | Primeira versão estável da aplicação |
 | _Release 2_ | Entre 05/12 e 12/12 | Entrega do produto final             |
 
-## 4. Usuários e Papéis
+## 4. Estrutura Analítica do Projeto
 
-### 4.1. Usuários
+<iframe
+  frameborder="0"
+  style="width:700px;height:500px;"
+  src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&nav=1&title=EAP#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dA8tdao0JFOYsTkJiQDQSlscOfun9FJL%26export%3Ddownload">
+</iframe>
+
+## 5. Usuários e Papéis
+
+### 5.1. Usuários
 
 | Usuário  | Descrição                                                                                                       | Candidato                   |
 | -------- | --------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | Aprendiz | Usuário que deseja aprender Django e/ou ingressar na área de desenvolvimento                                    | Mulheres                    |
 | Monitor  | Usuário que já realizou o tutorial ou já teve sua resposta marcada como solução de 3 ou mais perguntas no fórum | Qualquer pessoa interessada |
 
-### 4.2. Papéis
+### 5.2. Papéis
 
 | Nome                                     | Função        |
 | ---------------------------------------- | ------------- |
@@ -56,27 +64,27 @@ O tempo de entrega desse projeto é baseado na duração de um semestre das disc
 | Pedro de Miranda Haick                   | Desenvolvedor |
 | Rodrigo Carvalho dos Santos              | Desenvolvedor |
 
-### 4.3. Responsabilidades
+### 5.3. Responsabilidades
 
-#### 4.3.1. Scrum Master
+#### 5.3.1. Scrum Master
 
 - Manter a equipe alinhada.
 - Gerenciar os riscos do projeto.
 - Aplicar as práticas ágeis.
 
-#### 4.3.2. Product Owner
+#### 5.3.2. Product Owner
 
 - Escrever e manter o Roadmap do projeto.
 - Priorizar tarefas e features.
 - Gerenciar os requisitos do produto.
 - Certiificar a qualidade da aplicação.
 
-#### 4.3.3. Desenvolvedor
+#### 5.3.3. Desenvolvedor
 
 - Implementar as histórias de usuário dentro do prazo da sprint.
 - Seguir as práticas ágeis fornecidas pelo Scrum Master.
 
-## 5. Restrições
+## 6. Restrições
 
 - A aplicação não estará disponível _offline_, será necessária o acesso à internet.
 - Usuário deverá possuir acesso a um navegador.
