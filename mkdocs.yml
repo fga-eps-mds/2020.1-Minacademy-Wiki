@@ -26,6 +26,7 @@ nav:
   - Gestão:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
+      - Plano de Custos: gestao/plano_custos.md
   - Sprints:
       - Sprint 1: sprints/sprint_1.md
       - Sprint 2: sprints/sprint_2.md
