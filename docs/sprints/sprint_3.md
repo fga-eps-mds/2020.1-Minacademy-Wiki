@@ -45,6 +45,7 @@ Nenhuma
 
 
 **Pontos Negativos**
+
 - Falha de alinhamento em EPS
 - EPS deixou algumas configurações pendentes no GitHub
 - Jaime e Eduardo sem compromisso com as práticas do projeto

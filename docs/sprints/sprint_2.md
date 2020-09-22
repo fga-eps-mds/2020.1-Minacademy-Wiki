@@ -69,7 +69,7 @@ Nenhuma
 
 Em comparação com a sprint anterior, houve uma melhora significativa na equipe tanto em EPS como MDS. EPS focou em explicar e definir melhor as práticas da sprint e MDS se mostrou mais atento e caprichoso ao que deve ser feito. EPS continuou o acompanhamento de perto, porém teve acesso às entregas um pouco tarde na sprint, apesar de no fim as entregas terem sido feitas no prazo e sem maiores problemas.
 
-Entretando, em MDS, a melhora no comportamento não foi observada em todos os membros. Considerando o bom andamento do projeto, as faltas na reunião de alguns e sumiços são resultado da falta de comprisso de alguns, e pelo fato de tudo estar sendo entregue como solicitado, significa que os outros membros estão assumindo mais do que deveriam.
+Entretando, em MDS, a melhora no comportamento não foi observada em todos os membros. Considerando o bom andamento do projeto, as faltas na reunião de alguns e sumiços são resultado da falta de compromisso de alguns, e pelo fato de tudo estar sendo entregue como solicitado, significa que os outros membros estão assumindo mais do que deveriam.
 
 Para próxima sprint, o foco é manter toda a melhoria relatada, mas fazer com que ela aconteça com todos os membros. MDS deve também procurar mais a autogerência e cobrarem mais de suas duplas. Membros deve ser mais responsáveis com suas responsabilidades e EPS deve buscar cada vez mais organização no seu trabalho.
 
