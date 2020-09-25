@@ -14,3 +14,7 @@ O deploy é realizado automaticamente por meio do GitHub Actions e Packages. Uma
 Então, essas imagens são enviadas para o Github Packages de cada repositório. As imagens da branch develop recebem a tag homolog pois são consumidas no servidor de homologação, e as imagens da branch master recebem a tag production e são consumidas no servidor de produção.
 
 Por fim, o workflow realiza o acesso remoto ssh nos servidores, baixa as imagens, e inicializa os containers com as novas imagens. Nos servidores, temos apenas variáveis de ambiente e docker-composes com configuraões de homologação/produção. Os servidores estão hospedados na plataforma Digital Ocean.
+
+## Pipeline
+
+<iframe frameborder="0" style="width:100%;height:548px;" src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=CI.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1IhKiu-lf8IhFY6obxuNUWzIrLyCKGq6m%26export%3Ddownload"></iframe>
