@@ -63,3 +63,8 @@ Exemplo:
 ### Política de Branches
 
 Nesse projeto utilizamos o [GitFlow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow) conforme mostrado na imagem abaixo:
+
+
+[![Gitflow](https://i.imgur.com/X1iu2XJ.png)](https://i.imgur.com/X1iu2XJ.png)
+
+[Fonte](https://codigomaromba.com/2019/01/02/git-gitflow-usar-ou-nao-usar/)
