@@ -27,9 +27,9 @@ nav:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
       - Plano de Custos: gestao/plano_custos.md
-      - Gerência de Configuração de Software: gestao/gcs.md
   - Gestão de Software:
       - Plano de DevOps: gestao/devops.md
+      - Plano de Gestão do Repositório: gestao/gcs.md
   - Sprints:
       - Sprint 1: sprints/sprint_1.md
       - Sprint 2: sprints/sprint_2.md

@@ -3,15 +3,18 @@
 | Data       | Versão | Descrição       | Autor              |
 | ----       | ------ | ---------       | -----              |
 | 29/09/2020 | 1.0    | Primeira Versão | Gabriela           |
+| 29/09/2020 | 1.1    | Correções e complementações de tópicos | Geovana           |
 
 ## Commits
 
-Todos os commits devem possuir um título que demonstra resumidamente as alterações que foram feitas. Se o título não for suficiente para descrever as modificações, o commit também deve possuir uma descrição com a separação de uma linha do título.
+Todos os commits devem ser atômicos e possuirem um título que demonstra resumidamente as alterações que foram feitas. Se o título não for suficiente para descrever as modificações, o commit também deve possuir uma descrição com a separação de uma linha do título. Além disso, deve haver o Co-authored-by de todos os colaborados do commit, caso mais de uma pessoa tenha trabalhado na alteração em conjunto.
 
 ```md
   Título do commit
 
   Descrições necessárias para a total compreensão das alterações
+
+  Co-authored-by: colaborador <colaborador@email.com>
 ```
 
 ## Pull Requests
@@ -29,7 +32,7 @@ O padrão de PR's pode ser encontrado no arquivo `.github/PULL_REQUEST_TEMPLATE.
 
 ## Validação de Pull Requests
 
-A aprovação de um PR está condicionada à aceitação dele por pelo menos um membro de EPS. Essa aceitação só será concedida caso os testes unitários passem, o código esteja rodando e de acordo com os padrões e arquitetura do projeto.
+A aprovação de um PR está condicionada à aceitação dele por pelo menos um membro de EPS. Essa aceitação só será concedida caso os testes unitários e de qualidade passem, o código esteja rodando e de acordo com os padrões e arquitetura do projeto. Além disso, os critérios de aceitação da issue devem ser todos atendidos.
 
 ## Issues
 
@@ -46,19 +49,19 @@ O padrão de issue que é automaticamente carregado ao se criar uma issue no rep
 
 ### Features e Documentações
 
-Todas as branches criadas, exceto para bugfix, devem possuir o formato ` numero_da_issue-nome-da-issue `
+Todas as branches criadas, exceto para bugfix, devem inciar com o número da issue, para rápida identificação.
 
 Exemplo:
 
-`55-nome-reduzido`
+`55-nome-representativo-reduzido`
 
 ### Bugfix
 
-No caso de uma branch criada para a resolução de um bugfix, ela deve possuir o formato `bugfix-numero_da_issue-nome-da-issue`
+No caso de uma branch criada para a resolução de um bugfix, ela deve ser precedida por `bugfix`. Se foi um bugfix planejado para resolução na sprint, deve ser seguido pelo número da issue.
 
 Exemplo:
 
-`bugfix-56-nome-reduzido`
+`bugfix-56-nome-representativo-reduzido`
 
 ### Política de Branches
 
