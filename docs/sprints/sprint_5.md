@@ -9,7 +9,9 @@ Pontos Entregues: 15 <br>
 
 ## Objetivos
 
-- 
+- Disponibilizar a aplicação para o público externo ao projeto
+- Finalizar features do tutorial
+- Complementar features de usuário
 
 ## Planejamento
 
