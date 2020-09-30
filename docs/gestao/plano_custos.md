@@ -37,7 +37,7 @@ A seguir podemos ver o perfil da equipe em relação ao mercado de trabalho.
 
 ## Estimativa de Custo
 
-Os valores abaixo foram baseados nos dados fornecidos pelo site [Vagas.com](vagas.com).
+Os valores abaixo foram baseados nos dados fornecidos pelo site [Vagas.com](https://vagas.com).
 
 Para o custo, vamos considerar os salários médios a seguir:
 

@@ -29,6 +29,7 @@ nav:
       - Plano de Custos: gestao/plano_custos.md
   - Gestão de Software:
       - Plano de DevOps: gestao/devops.md
+      - Plano de Gestão do Repositório: gestao/gcs.md
   - Sprints:
       - Sprint 1: sprints/sprint_1.md
       - Sprint 2: sprints/sprint_2.md
