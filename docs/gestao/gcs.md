@@ -1,4 +1,4 @@
-# Gerência de Configuração de Software
+
 
 | Data       | Versão | Descrição       | Autor              |
 | ----       | ------ | ---------       | -----              |
