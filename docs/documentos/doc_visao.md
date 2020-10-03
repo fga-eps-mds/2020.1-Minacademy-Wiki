@@ -3,6 +3,7 @@
 **Data** | **Versão** | **Descrição** | **Autor**
 :---: | :---: | :--- | :---
 27/08 | 0.1 | Protótipo do Documento de Visão | Eduardo Picolo, Estevão Reis, Jaime Juan, Lucas Melo, Pedro Haick e Rodrigo Santos
+02/10 | 1.0 | Correções de texto e funcionalidades | Geovana
 
 ## 1. Introdução
 
