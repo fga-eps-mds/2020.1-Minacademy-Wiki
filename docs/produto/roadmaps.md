@@ -36,7 +36,7 @@
 
 Contabilizando desenvolvedores e gerentes, o time possui 8 integrantes em sua totalidade, 6 desenvolvedores e 2 gerentes.
 
-Apesar de termos 4 papéis de gerência com tarefas e responsabilidades definidas - Scrum Master, Arquiteto, DevOps e Product Owner - apenas dois deles foram atribuídos a uma pessoa específica: Scrum Master e Product Owner. Essa decisão foi tomada por ambos possuírem tarefas constantes e fixas nas sprint. 
+Apesar de termos 4 papéis de gerência com tarefas e responsabilidades definidas - Scrum Master, Arquiteto, DevOps e Product Owner - apenas dois deles foram atribuídos a uma pessoa específica: Scrum Master e Product Owner. Essa decisão foi tomada por ambas possuírem tarefas constantes e fixas nas sprint. 
 
 As tarefas e responsabilidades dos outros papéis serão dividas entre as gerentes de acordo com a carga de cada sprint. Abaixo podemos ver os papéis fixos de cada integrante do grupo.
 
