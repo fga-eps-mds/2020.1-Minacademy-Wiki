@@ -3,6 +3,7 @@
 **Data** | **Versão** | **Descrição** | **Autor**
 :---: | :---: | :--- | :---
 27/08 | 0.1 | Protótipo do Documento de Visão | Eduardo Picolo, Estevão Reis, Jaime Juan, Lucas Melo, Pedro Haick e Rodrigo Santos
+02/10 | 1.0 | Correções de texto e funcionalidades | Geovana
 
 ## 1. Introdução
 
@@ -22,13 +23,12 @@ Produzido com base no processo RUP (Rational Unified Process), este documento é
 
 ### 2.1 Oportunidade de Negócios:
 
-Tendo em vista a situação a qual estamos passando, vivendo uma pandemia global, ter uma plataforma web voltada para incentivar um grupo cujo é minoria, porém em grande ascensão, parece ser uma ideia viável.
+Os eventos do Django Girls são workshops em que mentores se voluntariam para ajudar meninas a crieram um website Django. Muitas meninas participam desse evento sem nenhuma ideia do que é programar, e se apaixonam pela programação. O Django Girls acontece sempre presencialmente e não há uma plataforma específica para dar suporte a este tipo de evento, ou ate mesmo torná-lo inteiramente remoto.
 
-Visando não somente inspirar e incentivar, mas também incluir, já que o evento ao qual nos baseamos ocorre somente de forma presencial. Com foco no aprendizado da linguagem Django, o projeto busca permitir uma imersão no mundo da programação com um sistema de mentorias e obtenção de um certificado ao final.
 
 ### 2.2: Relato de Problema:
 
-Atualmente realizar cursos presenciais são inviáveis diante o quadro clínico mundial. Diante disso é necessário pensarmos em prol de incentivar e capacitar aprendizes para o mercado de trabalho. Assim, a ferramenta tem como objetivo sanar esse problema em prol de facilitar, estimular e incluir um estudo acadêmico a distância com total suporte necessário.
+A pandemia da COVID-19 inviabiliza que tais workshops ocorram da forma como são planejados tradicionalmente. Mesmo em períodos normais, muitas meninas que vivem em localidades mais distantes não têm a oportunidade de participar dos workshops presenciais. Uma plataforma de mentoria online permite não só a inclusão de pessoas de outras regiões geográficas, mas também flexibiliza o tempo de realização do workshop, pois poderá ocorrer assincronamente. Assim, a ferramenta tem como objetivo sanar esse problema e manter todo o acolhimento que os workshops do Django Girls promovem.
 
 
 ## 3. Descrição dos Envolvidos e dos Usuários
@@ -76,8 +76,8 @@ Será necessário ter acesso a um computador desktop ou notebook com acesso a in
 #### 3.4.3 Cliente
 |     	|    	|
 |--------|---------|
-|_Representantes_  | mentores da organização Django Girls|
-|_Descrição_ | Responsável pelas demandas e validação do projeto.|
+|_Representantes_  | Organizadores e mentores de workshops do Django Girls. |
+|_Descrição_ | Pessoas responsáveis pela realização de workshops em diferentes localizações. |
 |_Tipo_| - |
 |_Critérios de Sucesso_| Expressar com clareza a proposta do projeto, detalhando funcionalidades esperadas, entre outros requisitos desejados para a aplicação. Além disso, deve testar a aplicação, observando possíveis erros ou inconformidades.|
 |_Envolvimento_| Médio|
@@ -121,10 +121,9 @@ A Django Girls Tutorial é uma plataforma para voluntários(as) atuarem como men
 ### 4.2 Resumo das Capacidades:
 Benefícios para o cliente   | Recurso de suporte
 :-----------------------: | :----------------:
-Comunicação entre usuários | A plataforma apresenta um  sistema exclusivo de <br> fórum e chat, para que aprendizes e mentores <br> possam se ajudar.
-Aprendizado acessível | Tutorial em etapas e com exercícios <br> para prática e fixação.
-Certificado de conclusão | Ao final das atividades os <br> participantes receberão um certificado.
-Feedback para aprendizes | Funcionalidade para mentores avaliarem trabalhos
+Comunicação entre usuários | A plataforma apresenta um  sistema exclusivo de de chat, para que aprendizes e mentores possam se ajudar.
+Aprendizado acessível | Tutorial em etapas e com exercícios para prática e fixação.
+Certificado de conclusão | Ao final das atividades, os participantes receberão um certificado.
 
 ## 5. Recursos
 
@@ -133,11 +132,9 @@ Feedback para aprendizes | Funcionalidade para mentores avaliarem trabalhos
 Cadastrar Usuário | Os usuários serão cadastrados na plataforma, podendo ser cadastrado como aprendiz, ou como mentor.
 Controle de Acesso | Os usuários devem estar cadastrado na plataforma para realizar o tutorial ou dar mentoria.
 Mentoria | Os usuários cadastrados como aprendizes, poderão ser vinculados a um mentor, para que este possa retirar dúvidas e dar suporte. O aprendiz/mentor também poderá reportar e/ou cancelar vínculo caso alguém seja rude ou falte com respeito.
-Fórum | O fórum servirá como espaço de discussão geral, afim de tirar dúvidas, onde aprendizes e mentores poderão interagir.
 Tutorial Interativo | Os cadastrados como aprendizes, terão acesso ao conteúdo do Django Girls de forma modularizada e com atividades.
 Certificados | Os aprendizes receberão um certificado de conclusão, após o término do tutorial. E os mentores terão certificado que o aprendiz finalizou o tutorial com sucesso.
 Dashboard | Alterar e visualizar informações de usuário, visualizar as atividades concluídas, salvar certificados no dispositivo e receber notificações ao ocorrer atualizações.
-Ranking | Receber pontos ao contribuir na plataforma, compartilhar a posição no ranking em redes sociais, e receber incentivo para contribuir na plataforma através do ranking.
 
 
 ## 6. Restrições
@@ -147,7 +144,5 @@ Ranking | Receber pontos ao contribuir na plataforma, compartilhar a posição n
 - Ser capaz de rodar nos principais navegadores.
 - Deve possuir meio de interação entre aprendizes e mentores.
 - Deve possuir pontos, ao progredir no tutorial.
-- Os pontos deve ser utilizado para o ranking da plataforma.
 - Ao concluir o tutorial, aprendizes deverão ser promovidas a mentores.
-- A avaliação final deverá ser avaliada por outros mentores e não o mentor do aprendiz, para não haver conflito de interesse na certificação do mentor.
 
