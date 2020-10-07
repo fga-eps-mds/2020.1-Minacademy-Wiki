@@ -4,8 +4,8 @@
 Número da Sprint:  <br>
 Data de Início:  26/09/2020 <br>
 Data de Término: 03/10/2020 <br>
-Pontos Planejados:  <br>
-Pontos Entregues:  <br>
+Pontos Planejados: 19 <br>
+Pontos Entregues:  14<br>
 
 ## Objetivos
 
@@ -20,7 +20,8 @@ Jaime - sem justificativa
 
 **Tarefas**
 
-Tarefa   | Pontos | Responsáveis
+|Tarefa   | Pontos | Responsáveis|
+|--------- | ------ | ----| 
 | [Bugfix - Interface](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/56)                  | 3 | Lucas e Estevão   |
 | [Bugfix - Atualizar Documentação](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/57)     | 1 | Todos   |
 | [Bugfix - Servidor e deploy](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/58)          | 2 | Geovana   |
@@ -29,13 +30,13 @@ Tarefa   | Pontos | Responsáveis
 | [Bugfix - Corrigir fluxo de cadastro](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/55) | 5 | Rodrigo e Pedro   |
 | [US19 - Recuperação de senha](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/60)         | 5 | Jaime  e Estevão   |
 | [US04 – Atividades](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/52)                   | Dívida | Eduardo, Rodrigo, Pedro e Jaime |
-**Total de Pontos** | **19**
+|**Total de Pontos** | **19**| |
 
 ## Resultados
 
 **Faltas** 
 
-Nenhuma
+Eduardo - sem justificativa
 
 **Dívidas**
 
@@ -44,6 +45,7 @@ Nenhuma
 
 
 **Pontos Negativos**
+
 - Trancamento de um membro
 - MDS deixou outras disciplinas interferirem no trabalho
 - MDS está com baixo rendimento
@@ -53,6 +55,7 @@ Nenhuma
 - Falta senso crítico para fazer entregas completas
 
 **Pontos Positivos**
+
 - MDS está disposto a mudar
 - MDS reconhece que precisa de mais compromisso com o projeto
 - Problemas significativos de usabilidade foram corrigidos
