@@ -11,6 +11,18 @@ Lucas Melo dos Santos	|luucas-melo	|lucasmelodos322@gmail.com| MDS
 Pedro de Miranda Haick	|peHaick	|pedrohaickzz@gmail.com| MDS
 Rodrigo Carvalho dos Santos	|Rocsantos	|ro12062000@gmail.com| MDS
 
+## Links
+
+[Homologação](http://hom-minacademy.tk/)
+
+[Produção](http://minacademy.tk/)
+
+[Frontend](https://github.com/fga-eps-mds/2020.1-Minacademy-FrontEnd)
+
+[Backend](https://github.com/fga-eps-mds/2020.1-Minacademy-BackEnd)
+
+[Wiki](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki)
+
 ## Tema
 
 Plataforma para suporte aos workshops do Django Girls. O objetivo geral é permitir que as ações realizadas nos workshops possam acontecer remotamente e sem a necessidade de um tempo pré definido de realização, ou seja, as aprendizes podem realizar o tutorial no seu tempo e ter acesso ao suporte de seus mentores por meio da plataforma. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
