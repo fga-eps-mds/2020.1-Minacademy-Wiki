@@ -46,7 +46,6 @@ Eduardo Nunes Pícolo                     | MDS        | Desenvolvedor   |
 Estevão de Jesus Reis                    | MDS        | Desenvolvedor   |
 Gabriela Medeiros da Silva               | EPS        | _Product Owner_ |
 Geovana Ramos Sousa Silva                | EPS        | _Scrum Master_  |
-Jaime Juan de Castro Feliciano Damasceno | MDS        | Desenvolvedor   |
 Lucas Melo dos Santos                    | MDS        | Desenvolvedor   |
 Pedro de Miranda Haick                   | MDS        | Desenvolvedor   |
 Rodrigo Carvalho dos Santos              | MDS        | Desenvolvedor   |
