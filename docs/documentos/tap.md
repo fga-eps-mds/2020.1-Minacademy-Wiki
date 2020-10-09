@@ -59,7 +59,6 @@ O tempo de entrega desse projeto é baseado na duração de um semestre das disc
 | Estevão de Jesus Reis                    | Desenvolvedor |
 | Gabriela Medeiros da Silva               | Product Owner |
 | Geovana Ramos Sousa Silva                | Scrum Master  |
-| Jaime Juan de Castro Feliciano Damasceno | Desenvolvedor |
 | Lucas Melo dos Santos                    | Desenvolvedor |
 | Pedro de Miranda Haick                   | Desenvolvedor |
 | Rodrigo Carvalho dos Santos              | Desenvolvedor |
