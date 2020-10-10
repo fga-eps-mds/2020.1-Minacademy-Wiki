@@ -28,7 +28,7 @@ Achou a navegação perfomática.
 
 Nao houve dificuldades para ler o tutorial;
 
-### Tarefa 6: Completar uma Modulo.
+### Tarefa 6: Completar uma Módulo.
 
 Nao  houve dificuldades
 

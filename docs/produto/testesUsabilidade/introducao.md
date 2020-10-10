@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor |
 |----|------|---------|-----|
 |06/10/2020|0.0.1|Primeira Versão do documento de teste de usabilidade|Luca Melo dos Santos, Eduardo Picolo Nunes|
+10/10/2020|0.0.2|Inserção do relatório 5|Estevao de Jesus Reis|
 
 
 ## Introdução
@@ -34,7 +35,6 @@ Os usuários terão que realizar as tarefas planejadas, em cada tarefa, o avalia
 	- Clicar no botão da navbar para fazer cadastro
 
 ### Tarefa 2: Fazer o cadastro.
-	- Acessar o fórum;
 	- Editar informações;
 
 ### Tarefa 3: Login.

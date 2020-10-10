@@ -28,7 +28,7 @@ Links funcionaram normalmente.
 
 Tutorial sendo mostrado sem problemas.
 
-### Tarefa 6: Completar uma Modulo.
+### Tarefa 6: Completar uma Módulo.
 
 Botão de voltar confuso, não soube se voltava ao tutorial ou ao exercício anterior.
 

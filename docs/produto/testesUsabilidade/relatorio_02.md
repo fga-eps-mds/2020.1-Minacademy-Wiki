@@ -28,7 +28,7 @@ Sem dificuldades
 
 Nao houve dificuldades para navegar entre os modulos do tutorial.
 
-### Tarefa 6: Completar uma Modulo.
+### Tarefa 6: Completar uma Módulo.
 
 Sem dificuldades
 

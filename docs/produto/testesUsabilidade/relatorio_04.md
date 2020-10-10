@@ -28,7 +28,7 @@ Não comentou nada sobre ela
 
 Nao houve dificuldades para ler o tutorial;
 
-### Tarefa 6: Completar uma Modulo.
+### Tarefa 6: Completar uma Módulo.
 
 Nao apareceu o módulo de atividades ao testar o site
 
