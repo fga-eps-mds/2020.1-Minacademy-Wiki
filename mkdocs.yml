@@ -23,6 +23,10 @@ nav:
       - Backlog do Produto: produto/product_backlog.md
       - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
       - Protótipo de Alta Fidelidade: produto/prototipo_alta.md
+      - Testes de usabilidade:
+            - Introdução: produto/testesUsabilidade/introducao.md
+            - Relatorio 1: produto/testesUsabilidade/relatorio_01.md
+            - Relatorio 2: produto/testesUsabilidade/relatorio_02.md
   - Gestão de Projeto:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
