@@ -27,9 +27,9 @@ nav:
             - Introdução: produto/testesUsabilidade/introducao.md
             - Relatorio 1: produto/testesUsabilidade/relatorio_01.md
             - Relatorio 2: produto/testesUsabilidade/relatorio_02.md
-	    - Relatorio 3: produto/testesUsabilidade/relatorio_03.md
-	    - Relatorio 4: produto/testesUsabilidade/relatorio_04.md
-   	    - Relatorio 5: produto/testesUsabilidade/relatorio_05.md
+            - Relatorio 3: produto/testesUsabilidade/relatorio_03.md
+            - Relatorio 4: produto/testesUsabilidade/relatorio_04.md
+            - Relatorio 5: produto/testesUsabilidade/relatorio_05.md
   - Gestão de Projeto:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
