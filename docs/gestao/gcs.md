@@ -4,6 +4,7 @@
 | ----       | ------ | ---------       | -----              |
 | 29/09/2020 | 1.0    | Primeira Versão | Gabriela           |
 | 29/09/2020 | 1.1    | Correções e complementações de tópicos | Geovana           |
+| 16/10/2020 | 1.2   | Correções e complementações de tópicos | Geovana           |
 
 ## Commits
 
@@ -54,6 +55,14 @@ Todas as branches criadas, exceto para bugfix, devem inciar com o número da iss
 Exemplo:
 
 `55-nome-representativo-reduzido`
+
+No caso de issues feitas conjuntamente por serem dependentes, o número das duas issues verar vir antes como xx/xx-nome.
+
+Para branches de documentos contínuos o nome deverá ser o nome da sprint.
+
+Exemplo:
+
+`sprint_N`
 
 ### Bugfix
 

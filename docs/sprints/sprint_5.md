@@ -1,7 +1,7 @@
 
 ## Resumo da Sprint
 
-Número da Sprint:  <br>
+Número da Sprint: 5 <br>
 Data de Início:  19/09/2020 <br>
 Data de Término: 26/09/2020 <br>
 Pontos Planejados: 23 <br>
