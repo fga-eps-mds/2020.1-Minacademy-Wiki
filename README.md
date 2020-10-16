@@ -1,6 +1,6 @@
 # Wiki
 
-Este repositório contém os **documentos** e ferramentas para alimentar a wiki em https://fga-eps-mds.github.io/2020.1-Grupo4/, pertencente ao Grupo 4 de EPS/MDS em 2020/1.
+Este repositório contém os **documentos** e ferramentas para alimentar a wiki em https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/, pertencente ao grupo Minacademy de EPS/MDS em 2020/1.
 
 ## Requisitos 
 Recomendamos rodar o repositório localmente e checar se as alterações não quebraram a Wiki. Para isso você precisa:
