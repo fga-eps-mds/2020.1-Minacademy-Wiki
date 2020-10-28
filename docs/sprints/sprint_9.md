@@ -35,7 +35,7 @@ Rodrigo - sem justificativas
 
 **Faltas** 
 
-Rodrigo - sem justificativas
+Nenhuma. Todos presentes
 
 **Dívidas**
 
