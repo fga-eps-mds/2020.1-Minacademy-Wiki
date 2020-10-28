@@ -19,12 +19,12 @@ Nenhuma. Todos presentes
 
 **Tarefas**
 
-Tarefa   | Pontos | Responsáveis
---------- | ------ |
+|Tarefa   | Pontos | Responsáveis|
+--------- | ------ | -----|
 | [Bugfix - Corrigir fluxo de cadastro](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/55) | Dívida  | Rodrigo |
 | [US13 - Solicitar aprendizes](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/75) | 5 | Lucas e Eduardo |
 | [US06 - Pedir monitor](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/74)        | 5 | Pedro e Estevão |
-| **Total de Pontos**                                                             | **10** |
+| **Total de Pontos**                                                             | **10** | |
 
 
 ## Resultados

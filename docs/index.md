@@ -12,8 +12,8 @@ Rodrigo Carvalho dos Santos	|Rocsantos	|ro12062000@gmail.com| MDS
 
 ## Links
 
-[Homologação](http://hom-minacademy.tk/) 
-🟪 [Produção](http://minacademy.tk/) 
+[Homologação](https://hom-minacademy.tk/) 
+🟪 [Produção](https://minacademy.tk/) 
 🟪 [Frontend](https://github.com/fga-eps-mds/2020.1-Minacademy-FrontEnd)
 🟪 [Backend](https://github.com/fga-eps-mds/2020.1-Minacademy-BackEnd)
 🟪 [Wiki](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki)
