@@ -24,8 +24,8 @@ Eduardo - sem justificativa
 Tarefa   | Pontos | Responsáveis
 --------- | ------ |
 | [TS26 – Teste de usabilidade](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/66)         | 3  | Todos MDS
-| [Bugfix - Corrigir fluxo de cadastro](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/55) | 0  | Rodrigo e Pedro
-| [US19 - Recuperação de senha](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/60)         | 0  | Estevão
+| [Bugfix - Corrigir fluxo de cadastro](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/55) | Dívida  | Rodrigo e Pedro
+| [US19 - Recuperação de senha](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/60)         | Dívida  | Estevão
 | [Bugfix - Atividades](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/67)                 | 5  | Eduardo e Lucas
 | [TS28 - Plano de qualidade](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/69)           | 2  | Geovana
 | [TS29 - Release 1](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/65)                    | 3  | Geovana, Gabriela, Lucas e Estevão
