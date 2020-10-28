@@ -23,11 +23,11 @@ Rodrigo - sem justificativas
 
 Tarefa   | Pontos | Responsáveis
 --------- | ------ |
-| [US13 - Solicitar aprendizes](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/75)                            | 0 |  |
-| [US06 - Pedir monitor](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/74)                                   | 0 |  |
-| [US08 - Fornecer certificado ao aprendiz concluir curso](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/77) | 5 |   |
-| [US12 - Cancelar mentoria](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/78)                               | 3 |   |
-| [TS30 - Configurar Nginx](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/79)                                | 3 |  |
+| [US13 - Solicitar aprendizes](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/75)                            | Dívida | Lucas e Eduardo |
+| [US06 - Pedir monitor](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/74)                                   | Dívida | Pedro e Estevão |
+| [US08 - Fornecer certificado ao aprendiz concluir curso](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/77) | 5 | Lucas, Estevão e Pedro  |
+| [US12 - Cancelar mentoria](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/78)                               | 3 | Eduardo e Rodrigo  |
+| [TS30 - Configurar Nginx](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/issues/79)                                | 3 | Geovana |
 | **Total de Pontos**                                                             | **11** |
 
 
