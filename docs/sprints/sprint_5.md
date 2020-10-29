@@ -21,8 +21,8 @@ Nenhuma. Todos presentes
 
 **Tarefas**
 
-Tarefa   | Pontos | Responsáveis
---------- | ------ | ---- 
+|Tarefa   | Pontos | Responsáveis|
+|--------- | ------ | ----| 
 | TS21 - Configurar servidores de deploy | 5  | Gabriela e Geovana |
 | TS22 - Plano de pipeline de DevOps    | 2  | Gabriela e Geovana |
 | TS23 - Configurar ferramenta de CI/CD | 3  | Gabriela e Geovana |

@@ -23,13 +23,13 @@ nav:
       - Backlog do Produto: produto/product_backlog.md
       - Protótipo de Baixa Fidelidade: produto/prototipo_baixa.md
       - Protótipo de Alta Fidelidade: produto/prototipo_alta.md
-      - Testes de usabilidade:
+      - Testes de Usabilidade:
             - Introdução: produto/testesUsabilidade/introducao.md
-            - Relatorio 1: produto/testesUsabilidade/relatorio_01.md
-            - Relatorio 2: produto/testesUsabilidade/relatorio_02.md
-            - Relatorio 3: produto/testesUsabilidade/relatorio_03.md
-            - Relatorio 4: produto/testesUsabilidade/relatorio_04.md
-            - Relatorio 5: produto/testesUsabilidade/relatorio_05.md
+            - Relatório 1: produto/testesUsabilidade/relatorio_01.md
+            - Relatório 2: produto/testesUsabilidade/relatorio_02.md
+            - Relatório 3: produto/testesUsabilidade/relatorio_03.md
+            - Relatório 4: produto/testesUsabilidade/relatorio_04.md
+            - Relatório 5: produto/testesUsabilidade/relatorio_05.md
   - Gestão de Projeto:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
@@ -47,5 +47,6 @@ nav:
       - Sprint 6: sprints/sprint_6.md
       - Sprint 7: sprints/sprint_7.md
       - Sprint 8: sprints/sprint_8.md
+      - Sprint 9: sprints/sprint_9.md
   - Apresentações: apresentacoes.md
       
