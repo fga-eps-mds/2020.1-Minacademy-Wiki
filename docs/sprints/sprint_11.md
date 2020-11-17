@@ -1,7 +1,7 @@
 
 ## Resumo da Sprint
 
-Número da Sprint:  <br>
+Número da Sprint:  11<br>
 Data de Início:  31/10/2020 <br>
 Data de Término: 07/11/2020 <br>
 Pontos Planejados:  22<br>
