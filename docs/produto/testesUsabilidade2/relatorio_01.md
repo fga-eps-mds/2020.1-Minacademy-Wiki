@@ -4,7 +4,7 @@
 - Idade: 19
 - Tipo: estudante
 - Estado do site: possui página inicial, páginas de login, cadastro, dashboard, tutorial, editar perfil, chat, mentoria.
-- Tipo do Teste: Aprendiz
+- Usuário foco: Aprendiz
 - Avaliador: Estevao Reis
 
 ## Tarefas:

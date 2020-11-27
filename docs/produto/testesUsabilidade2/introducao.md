@@ -96,28 +96,26 @@ As tarefas serão realizadas de formas diferentes para os dois tipos de usuário
 #### Tarefa 4: Fazer a avaliação de mentoria.
 	- Fazer a Avaliação e ser aprovado
 
-#### Tarefa 5: Visualizar o Certificado.
-     - Visualizar o certificado de mentoria
-     - Compartilhar no Whatsapp
-     - Fazer o download do certificado
 
-#### Tarefa 6: Acessar a página de Mentoria.
+#### Tarefa 5: Acessar a página de Mentoria.
      - Pedir ou aceitar uma aprendiz
      - Obter uma aprendiz
      - Verificar e-mail de confirmação de vínculo com a aprendiz
 
-#### Tarefa 7: Mandar Mensagem no Chat
+#### Tarefa 6: Mandar Mensagem no Chat
      - Escrever uma mensagem no chat
     
+#### Tarefa 7: Visualizar o Certificado.
+     - Visualizar o certificado de mentoria
+     - Compartilhar no Whatsapp
+     - Fazer o download do certificado
 #### Tarefa 8: Perfil.
 	- Editar o perfil
      - Editar o endereço de email
      - Verificar o e-mail de confirmação de mudança de endereço de e-mail
      - Confirmar mudança de email
-
 #### Tarefa 9: Logout.
 	- Sair da plataforma
-
 #### Tarefa 10: Recuperar senha
     - Ir na página de recuperação de senha
     - Acessar o email para fazer a troca de senha
