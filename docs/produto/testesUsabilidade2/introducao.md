@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor |
 |----|------|---------|-----|
 |25/11/2020|0.0.1|Primeira Versão do documento de teste de usabilidade 2|Estevão de Jesus Reis|
+|27/11/2020|0.0.1|Modificação na sessão Usuário|Estevão de Jesus Reis|
 
 ## Introdução
 
@@ -12,16 +13,16 @@ A usabilidade é uma  grande preocupação do nosso sistema, já que nossa propo
 
 A Minacademy é uma plataforma de curso que aceita qualquer pessoa interessada em programação, porém para ser aprendiz, deverá ser mulher, já que a maior proposta da plataforma é chamar mulheres para programação.
 
-### - Usuário
+### Usuário
 
-|               |           |
-|---------------|----------|
-| **Representante** | Usuários |
-| **Descrição** | Pessoa que se identifica com o sexo feminino |
-| **Tipo** | Usuário Avançado |
-| **Responsabilidade** | Fazer o tutorial e atividades do curso |
-| **Critérios de sucesso** | concluir o tutorial com todas as atividades completas |
-| **Envolvimento** | baixo |
+|               |          |     |
+|---------------|----------|-----|
+| **Representante** | Aprendiz | Mentor |
+| **Descrição** | Pessoa que se identifica com o sexo feminino | Pessoa capaz de auxiliar os estudos de uma aprendiz
+| **Tipo** | Usuário Avançado | Usuário Avançado|
+| **Responsabilidade** | Fazer o tutorial e atividades do curso | Dar mentoria para aprendizes até que elas concluam todo o tutorial|
+| **Critérios de sucesso** | concluir o tutorial com todas as atividades completas e receber o certificado de conclusão | dar suporte a alguma aprendiz até que ela conclua o tutorial e então receba o certificado de mentoria|
+| **Envolvimento** | baixo | baixo |
 | **Comentários ou Problemas** | - |
 
 ## Tarefas
@@ -31,17 +32,18 @@ As tarefas serão realizadas de formas diferentes para os dois tipos de usuário
 ### Aprendiz
 #### Tarefa 1: Explorar a página inicial.
      - Acessar os links da navbar
+     - Ler as informações contidas na página inicial
 #### Tarefa 2: Fazer o cadastro.
      - Clicar no botão da navbar para fazer cadastro
      - Realizar o cadastro como Aprendiz
-     - Verificar email de confirmação de cadastro
-     - Olhar a página de Bem-Vindos
+     - Verificar e-mail de confirmação de cadastro
+     - Ler as informações contidas na  página de Bem-Vindos
 #### Tarefa 3: Acessar os links da navbar.
      - Olhar dashboard;
 #### Tarefa 4: Acessar a página de Mentoria.
-     - Pedir monitoria
-     - Obter um monitor
-     - Verificar e-mail de confirmação de vínculo com o monitor
+     - Pedir mentoria
+     - Obter um mentor
+     - Verificar e-mail de confirmação de vínculo com o mentor
 #### Tarefa 5: Mandar Mensagem no Chat
      - Escrever uma mensagem no chat
 #### Tarefa 6: Tutorial.
@@ -70,11 +72,12 @@ As tarefas serão realizadas de formas diferentes para os dois tipos de usuário
 ### Monitor
 #### Tarefa 1: Explorar a página inicial.
      - Acessar os links da navbar
+     - Ler as informações contidas na página inicial
 #### Tarefa 2: Fazer o cadastro.
      - Clicar no botão da navbar para fazer cadastro
-     - Realizar o cadastro como Monitor
-     - Verificar email de confirmação de cadastro
-     - Olhar a página de Bem-Vindos
+     - Realizar o cadastro como Mentor
+     - Verificar e-mail de confirmação de cadastro
+     - Ler as informações contidas na  página de Bem-Vindos
 #### Tarefa 3: Acessar os links da navbar.
      - Olhar dashboard;
 
