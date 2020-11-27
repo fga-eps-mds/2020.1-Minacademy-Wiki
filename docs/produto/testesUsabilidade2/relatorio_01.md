@@ -2,6 +2,7 @@
 
 - Usuário: Vanessa Carvalho
 - Idade: 19
+- Gênero: Feminino
 - Tipo: estudante
 - Estado do site: possui página inicial, páginas de login, cadastro, dashboard, tutorial, editar perfil, chat, mentoria.
 - Usuário foco: Aprendiz
@@ -13,7 +14,7 @@
 
 A usuária gostou do design da página inicial, achou bastante conveniente as guias que rolavam para uma parte específica da página. Notou que as informações contidas na páginas eram relevante e bem explicadas.
 
-### Tarefa 2: Fazer o cadastro.
+#### Tarefa 2: Fazer o cadastro.
 
 Fez o cadastro sem dificuldades, notificação bem explicadas. Gostou do fato do link já redirecionar para a página de Bem-vindos.
 
