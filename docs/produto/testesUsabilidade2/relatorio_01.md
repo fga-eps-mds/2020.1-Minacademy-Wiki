@@ -44,7 +44,7 @@ Elogiou o design do certificado e a possibilidade de fazer o compartilhamento na
 
 #### Tarefa 9: Perfil.
 
-Sem dificuldades para editar o perfil. Não conseguiu fazer a mudança de email.
+Sem dificuldades para editar o perfil. Não conseguiu fazer a mudança de email, pois quando clicou no email que redireciona para a página que faz a troca do email, a aplicação quebrou.
 
 #### Tarefa 10: Logout.
 

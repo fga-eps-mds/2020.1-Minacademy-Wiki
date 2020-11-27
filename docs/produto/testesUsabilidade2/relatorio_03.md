@@ -24,7 +24,7 @@ Achou a Dashboard bastante clara e de fácil navegação.
 
 #### Tarefa 4: Fazer a avaliação de mentoria.
 
-Sugeriu que padronizasse a quantidade de alternativas em cada questão, trocar a palavra "Atividade" por "Questão", apresentar o botão "Finalizar avaliação" apenas no final da avaliação e em baixo, pois teve certa dificuldade em saber o quê fazer quando terminou a última questão. Deveria mostrar a porcentagem de acertos ao finalizar a avaliação. Além disso, poderia dar a oportunidade da pessoa fazer a revisão caso fosse aprovado, visualizando as questões acertadas e erradas, dando assim uma oportunidade de aprender mais para poder auxiliar na mentoria. Gostou da navegabilidade da avaliação e nao teve problemas em relação a isso.
+Sugeriu que padronizasse a quantidade de alternativas em cada questão, trocar a palavra "Atividade" por "Questão", apresentar o botão "Finalizar avaliação" apenas no final da avaliação e em baixo, pois teve certa dificuldade em saber o que fazer quando terminou a última questão. Deveria mostrar a porcentagem de acertos ao finalizar a avaliação. Além disso, poderia dar a oportunidade da pessoa fazer a revisão caso fosse aprovado, visualizando as questões acertadas e erradas, dando assim uma oportunidade de aprender mais para poder auxiliar na mentoria. Gostou da navegabilidade da avaliação e nao teve problemas em relação a isso.
 
 #### Tarefa 5: Acessar a página de Mentoria.
 

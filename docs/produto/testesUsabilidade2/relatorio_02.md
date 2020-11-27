@@ -40,7 +40,8 @@ Elogiou a facilidade do compartilhamento do certificado nas redes sociais.
 
 #### Tarefa 8: Perfil.
 
-Elogiou a praticidade da edição das informações do perfil, porém não conseguiu editar as informações de endereço de e-mail
+Elogiou a praticidade da edição das informações do perfil, porém não conseguiu editar as informações de endereço de e-mail pois quando clicou no email que redireciona para a página que faz a troca do email, a aplicação quebrou.
+
 
 #### Tarefa 9: Logout.
 Conseguiu sair facilmente da plataforma.
