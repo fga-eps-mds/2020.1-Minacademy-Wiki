@@ -3,6 +3,10 @@
 O teste funcional visa verificar a aceitabilidade dos dados, do processamento, da resposta do mesmo e a implementação apropriada das regras de negócio. Esse teste visa verificar o sistema através da interação da Interface Gráfica de Usuário(GUI) e analisar as saídas e resultados dessa interação.
 Para realizar o teste funcional foi utilizado o **Cypress**, um framework de testes automatizados end-to-end. Como os repositórios do backend e frontend são separados, não foi possível colocar na integração contínua(CI), porém é possível rodar localmente rodando o script “npm run cypress”. Os testes podem ser visualizados nos gif’s abaixo.
 
+## Cobertura do Teste
+
+!['Cobertura dos testes feita no dia 28/11/2020'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/cobertura.jpg 'Feita no dia 28/11/2020')
+
 ## Testes executados no projeto
 
 !['Teste de Aprendiz'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/gifs/Learner.gif)
