@@ -34,6 +34,7 @@ nav:
             - Relatório 1: produto/testesUsabilidade2/relatorio_01.md
             - Relatório 2: produto/testesUsabilidade2/relatorio_02.md
             - Relatório 3: produto/testesUsabilidade2/relatorio_03.md
+      - Teste Funcional: produto/testesFuncionais/testesFuncionais.md
   - Gestão de Projeto:
       - Plano de Comunicação: gestao/plano_comunicacao.md
       - Plano de Gestão de Riscos: gestao/plano_riscos.md
