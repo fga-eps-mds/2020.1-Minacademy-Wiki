@@ -3,14 +3,14 @@
 - Usuário: Isadora Mendes
 - Idade: 18
 - Tipo: estudante
-- Estado do site: possui pagina inicial, paginas de login, cadastro, dashboard, tutorial, editar perfil.
+- Estado do site: possui página inicial, páginas de login, cadastro, dashboard, tutorial, editar perfil.
 - Avaliador(a): Rodrigo
 
 ## Tarefas:
 
-### Tarefa 1: Explorar a página ínicial.
+### Tarefa 1: Explorar a página inicial.
 
-A usuaria não gostou muito da claridade da página pois não tem acessibilidade para tema escuro
+A usuária não gostou muito da claridade da página pois não tem acessibilidade para tema escuro
 
 ### Tarefa 2: Fazer o cadastro.
 
@@ -26,11 +26,11 @@ Não comentou nada sobre ela
 
 ### Tarefa 5: Tutorial.
 
-Nao houve dificuldades para ler o tutorial;
+Não houve dificuldades para ler o tutorial;
 
 ### Tarefa 6: Completar uma Módulo.
 
-Nao apareceu o módulo de atividades ao testar o site
+Não apareceu o módulo de atividades ao testar o site
 
 ### Tarefa 7: Editar o perfil.
 
@@ -42,6 +42,6 @@ Realizou o logout sem dificuldades.
 
 ## Conclusão
 
-A usuaria não teve muitas dificuldades ao utilizar o site, não gostou muito da cor branca do site, sugeriu um botão de excluir conta e correção dos bugs.
+A usuária não teve muitas dificuldades ao utilizar o site, não gostou muito da cor branca do site, sugeriu um botão de excluir conta e correção dos bugs.
 
 ## NOTA DE USABILIDADE DO USUÁRIO: 8/10
