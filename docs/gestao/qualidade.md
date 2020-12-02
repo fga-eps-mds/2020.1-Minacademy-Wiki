@@ -25,5 +25,5 @@ Algumas ferramentas e/ou padrões foram adotados em desenvolvimento para garanti
 
 - Ferramenta ESLint 
 - Style guide do Airbnb
-- Ferramenta Prettier pra algumas correções automáticas
+- Ferramenta Prettier para algumas correções automáticas
 

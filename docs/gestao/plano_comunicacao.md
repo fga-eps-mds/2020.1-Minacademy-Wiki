@@ -24,7 +24,7 @@ Dúvidas sobre o projeto | Canal #duvidas do Slack
 Avisos | Canal #avisos do Slack
 Pautas de reunião | OneNote do Teams da equipe
 Votações | Canal #enquetes no Slack
-Daily Meetings | Preenchimento no chat com o Friday app e respostas no calnal #daily do Slack
+Daily Meetings | Preenchimento no chat com o Friday app e respostas no canal #daily do Slack
 Gravações | Teams da equipe
 Issues | Repositório da Wiki
 
