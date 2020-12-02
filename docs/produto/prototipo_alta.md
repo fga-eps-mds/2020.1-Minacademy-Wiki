@@ -40,9 +40,9 @@ Será possível visualizar o chat em qualquer uma das telas quando o usuário es
 
 ![](prototipo_alta/03-dashboard-chat-popup.png "Chat Popup")
 
-## Perfíl do Usuário
+## Perfil do Usuário
 
-Na pagína de configurações de usuário, abrirá uma caixa com as informações do usuário, que poderão ser atualizadas, caso queira.
+Na página de configurações de usuário, abrirá uma caixa com as informações do usuário, que poderão ser atualizadas, caso queira.
 
 ![](prototipo_alta/04-profile.png "Configurações de Usuário")
 

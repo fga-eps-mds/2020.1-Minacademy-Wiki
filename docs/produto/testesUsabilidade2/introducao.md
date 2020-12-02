@@ -3,7 +3,7 @@
 | Data | Versão | Descrição | Autor |
 |----|------|---------|-----|
 |25/11/2020|0.0.1|Primeira Versão do documento de teste de usabilidade 2|Estevão de Jesus Reis|
-|27/11/2020|0.0.1|Modificação na sessão Usuário|Estevão de Jesus Reis|
+|27/11/2020|0.0.2|Modificação na sessão Usuário|Estevão de Jesus Reis|
 
 ## Introdução
 
