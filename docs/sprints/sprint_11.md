@@ -50,7 +50,7 @@ Nenhuma
 
 - Boa produtividade
 - Mantiveram as melhorias
-- Mais indepedência de alguns membros
+- Mais independência de alguns membros
 - Iniciativa de entregar mais que o mínimo necessário
 
 **Sugestões de Melhoria**

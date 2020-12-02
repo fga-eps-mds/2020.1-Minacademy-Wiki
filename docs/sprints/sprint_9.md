@@ -50,7 +50,7 @@ Sem dívidas.
 
 **Pontos Positivos**
 
-- MDS teve auto-gerenciamento 
+- MDS teve autogerenciamento 
 - Não houve dívidas
 - Proatividade em não esperar pelos outros
 - MDS se esforçou até o fim da sprint
@@ -62,4 +62,4 @@ Sem dívidas.
 
 ## Relato do Scrum Master
 
-Após uma sprint bem ruim houve uma mudança de comportamenta, mais especificamente na auto-gerencia de MDS. Ficou percetível que a organização interna deles permitiu que tudo fosse entregue, além da comunicação. A dificuldade estar em manter esses avanços, além de ainda vencer a dificuldade com as tecnologias por parte de alguns membros. O desafio agora é balancear a equipe.
+Após uma sprint bem ruim houve uma mudança de comportamento, mais especificamente na auto-gerência de MDS. Ficou perceptível que a organização interna deles permitiu que tudo fosse entregue, além da comunicação. A dificuldade esta em manter esses avanços, além de ainda vencer a dificuldade com as tecnologias por parte de alguns membros. O desafio agora é balancear a equipe.
