@@ -4,6 +4,7 @@
 | ----- | ------ | --------------------- | ----------------- |
 | 09/09/2020 | 1.0    | Abertura do documento | Gabriela Medeiros |
 | 02/12/2020 | 1.0.1  | Correção de erros ortográficos| Estevão Reis|
+| 04/12/2020 | 1.0.2  | Inserindo as mudanças que houve durante a implementação do projeto | Rodrigo Carvalho |
 
 ## 1. Introdução
 
@@ -24,7 +25,7 @@ O propósito deste projeto é desenvolver o Minacademy de forma bem documentada,
 #### 2.2.2. Propósito do _MinAcademy_
 
 O objetivo dessa aplicação é agregar mulheres na tecnologia de uma forma que se sintam acolhidas e importantes dentro da área.
-Buscamos incentivar a pluralidade dentro do mercado de desenvolvimento de forma saudável e inclusiva por meio da disponibilização de monitorias para aquelas que desejam um acompanhamento no seu processo de aprendizado, e do fornecimento de um fórum interativo para sanar dúvidas técnicas no qual monitores e alunas podem adicionar suas perguntas e colaborar com o aprendizado de outros usuários.
+Buscamos incentivar a pluralidade dentro do mercado de desenvolvimento de forma saudável e inclusiva por meio da disponibilização de monitorias para aquelas que desejam um acompanhamento no seu processo de aprendizado.
 
 ## 3. Entregas
 
@@ -50,7 +51,7 @@ O tempo de entrega deste projeto é baseado na duração de um semestre das disc
 | Usuário  | Descrição                                                                                                       | Candidato                   |
 | -------- | --------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | Aprendiz | Usuário que deseja aprender Django e/ou ingressar na área de desenvolvimento                                    | Mulheres                    |
-| Monitor  | Usuário que já realizou o tutorial ou já teve sua resposta marcada como solução de 3 ou mais perguntas no fórum | Qualquer pessoa interessada |
+| Monitor  | Usuário que já realizou o tutorial ou respondeu com mais de 70% de acerto o exame | Qualquer pessoa interessada |
 
 ### 5.2. Papéis
 
