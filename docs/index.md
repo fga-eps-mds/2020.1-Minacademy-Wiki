@@ -20,7 +20,7 @@ Rodrigo Carvalho dos Santos	|Rocsantos	|ro12062000@gmail.com| MDS
 
 ## Tema
 
-Plataforma para mentoria em cursos de programação voltados para mulheres. O objetivo é que mentores voluntários possam dar suporte às aprendizes que realizam os tutoriais de programação. Surge a partir da experiência do Django Girls e o escopo inicial irá comtemplar o tutorial Django. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
+Plataforma para mentoria em cursos de programação voltados para mulheres. O objetivo é que mentores voluntários possam dar suporte às aprendizes que realizam os tutoriais de programação. Surge a partir da experiência do Django Girls e o escopo inicial irá contemplar o tutorial Django. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
 
 ## Organização do Repositório
 
