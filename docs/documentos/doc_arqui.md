@@ -88,12 +88,27 @@ O React é uma biblioteca JavaScript declarativa, eficiente e flexível para cri
 
 Redux é um padrão e biblioteca para gerenciar e atualizar o estado do aplicativo, usando eventos chamados "ações". Ele serve como um armazenamento centralizado para o estado que precisa ser usado em todo o seu aplicativo, com regras que garantem que o estado só possa ser atualizado de maneira previsível.[4]
 
-- Diagrama do redux
-![Diagrama do Redux](./imagens/diag-redux.png "Diagrama do Redux")[12]
+#### 2.1.3 Reselect
 
+Reselect é um biblioteca para construir *memoized* *selectors*, funções que recuperam trechos do estado do Redux para os componentes React. Usando o processo de *memoization*, é possível previnir rerenders desnecessarios e recalculações de dados derivados do Redux, o que irá melhorar a performance da aplicação.
 #### 2.1.3 Representação arquitetural da camada de apresentação
 
 ![Representação-Arquitetura-React-Redux](https://miro.medium.com/max/512/1*Or0o-_dFsZe1ahMAC2yLZQ.png)[8]
+
+#### 2.1.4 Diagrama Redux-React
+![Diagrama do Redux](./imagens/diag-redux.png "Diagrama do Redux")[12]
+
+**Store**: A *Store* carrega toda a árvore de estados da aplicação. O único modo de alterar o estado é dispachando *Actions*.
+
+**Action**: São *payloads* de informação que enviam dados da aplicação para a *Store*. Elas são a única fonte de informação para a *Store*.
+
+**Reducer**: Cria um bloco independente de estado e especifica como esse estado deve ser alterado em resposta a uma *Action*.
+
+**Container**: Faz a conexão entre a aplicação e a *Store* do Redux, gerencia eventos e fornece o estado.
+
+**Selector**:  Uma função que recebe estado como argumento e retorna dados derivados do mesmo. *Selectors* criados usando a biblioteca Reselect podem ser usados para computar dados derivados de maneira mais eficiente.
+
+**Template**: É o conjunto das partes menores da aplicação, os componentes têm somente uma responsabilidade e não possuem estado.
 
 ### 2.2.Camada de negócio (Back-end)
 
@@ -108,6 +123,10 @@ MVC é o acrônimo de Model-View-Controller (em português: Arquitetura Modelo-V
 #### 2.2.2 Express
 
 O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel[6].
+
+#### 2.2.3 Socket.IO
+
+SocketIO é uma biblioteca JavaScript para aplicativos da web em tempo real. Permite comunicação bidirecional em tempo real entre clientes e servidores da Web. Ele tem duas partes: uma biblioteca do lado do cliente que é executada no navegador e uma biblioteca do lado do servidor para o Node.js.
 
 ### 2.3.Camada de Dados
 
@@ -127,8 +146,11 @@ MongoDB é um software de banco de dados orientado a documentos livre, de códig
 
 ### 2.5 Diagrama de Pacotes
 
+- Back-End
+
 ![Diagrama-de-Pacotes](./imagens/diag-pack.png)[13]
 
+- Front-End
 ## 3. Metas e Restrições da Arquitetura
 
 ### 3.1 Usabilidade
