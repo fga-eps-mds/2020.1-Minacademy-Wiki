@@ -43,7 +43,7 @@ Jaime - sem justificativa
 
 **Pontos Negativos**
 
-- Falta de atenção do pareamente Rodrigo|Eduardo|Jaime|Pedro no que foi pedido e reforçado 
+- Falta de atenção do pareamento Rodrigo|Eduardo|Jaime|Pedro no que foi pedido e reforçado 
 - Pareamento Rodrigo|Eduardo|Jaime|Pedro não distribuiu tarefas da forma que foi solicitado
 - Quem está com poucos commits não teve iniciativa de trabalhar com código 
 - Duas faltas em daily 
@@ -68,6 +68,6 @@ Jaime - sem justificativa
 
 ## Relato do Scrum Master
 
-Essa sprint apresentou uma queda em relação às anteriores, o que resultou em dívida técnica. A heterogeneidade de MDS está ficando maior, pois alguns membros não tem tempo disponível na grade para se dedicar a disciplina, o que gera sobrecarga para outros. Além disso, os que possuem dificuldade com a tecnologia se isolam cada vez mais e os que entendem melhor se distanciam mais.
+Essa sprint apresentou uma queda em relação às anteriores, o que resultou em dívida técnica. A heterogeneidade de MDS está ficando maior, pois alguns membros não têm tempo disponível na grade para se dedicar a disciplina, o que gera sobrecarga para outros. Além disso, os que possuem dificuldade com a tecnologia se isolam cada vez mais e os que entendem melhor se distanciam mais.
 
 Para a próxima sprint, EPS deverá distribuir tarefas de forma que os com mais dificuldade entrem em maior contato com a prática de código e entrem no ritmo dos demais. MDS deverá se organizar melhor e ter mais iniciativa individualmente, além de alguns reverem se tem condição de continuar na disciplina, devido a sua disponibilidade. Por fim, MDS deve melhorar sua comunicação com EPS e prestar mais atenção no que está sendo pedido nas entregas.

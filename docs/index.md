@@ -20,7 +20,7 @@ Rodrigo Carvalho dos Santos	|Rocsantos	|ro12062000@gmail.com| MDS
 
 ## Tema
 
-Plataforma para suporte aos workshops do Django Girls. O objetivo geral é permitir que as ações realizadas nos workshops possam acontecer remotamente e sem a necessidade de um tempo pré definido de realização, ou seja, as aprendizes podem realizar o tutorial no seu tempo e ter acesso ao suporte de seus mentores por meio da plataforma. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
+Plataforma para mentoria em cursos de programação voltados para mulheres. O objetivo é que mentores voluntários possam dar suporte às aprendizes que realizam os tutoriais de programação. Surge a partir da experiência do Django Girls e o escopo inicial irá contemplar o tutorial Django. Veja mais detalhes em nossos [Documentos](documentos/doc_visao.md).
 
 ## Organização do Repositório
 
@@ -28,7 +28,7 @@ Plataforma para suporte aos workshops do Django Girls. O objetivo geral é permi
 Reúne as documentações que definem o escopo do projeto, sejam questões de negócio ou definições técnicas.
 
 **Produto**<br>
-Reúne as documentações que detalham o produto e o projeto de forma detalhada.
+Reúne as documentações que detalham e testam o produto.
 
 **Gestão de Projeto**<br>
 Reúne as documentações referentes às práticas adotadas para o bom funcionamento do projeto.

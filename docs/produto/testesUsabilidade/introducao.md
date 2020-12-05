@@ -3,7 +3,8 @@
 | Data | Versão | Descrição | Autor |
 |----|------|---------|-----|
 |06/10/2020|0.0.1|Primeira Versão do documento de teste de usabilidade|Luca Melo dos Santos, Eduardo Picolo Nunes|
-10/10/2020|0.0.2|Inserção do relatório 5|Estevao de Jesus Reis|
+|10/10/2020|0.0.2|Inserção do relatório 5|Estevao de Jesus Reis|
+|02/12/2020|1.0  | Correção de erros ortográficos|Estevão Reis|
 
 
 ## Introdução
@@ -14,7 +15,7 @@ A usabilidade é uma  grande preocupação do nosso sistema, já que nossa propo
 
 A Minacademy é uma plataforma de curso que aceita qualquer pessoa interessada em programação, porém para ser aprendiz, deverá ser mulher, já que a maior proposta da plataforma é chamar mulheres para programação.
 
-### - Usuario
+### - Usuário
 
 |               |           |
 |---------------|----------|
@@ -22,7 +23,7 @@ A Minacademy é uma plataforma de curso que aceita qualquer pessoa interessada e
 | **Descrição** | Pessoa que se identifica com o sexo feminino |
 | **Tipo** | Usuário Avançado |
 | **Responsabilidade** | Fazer o tutorial e atividades do curso |
-| **Critérios de sucesso** | concluir o tutorial com todas as atividades cimpletas |
+| **Critérios de sucesso** | concluir o tutorial com todas as atividades completas |
 | **Envolvimento** | baixo |
 | **Comentários ou Problemas** | - |
 
@@ -30,7 +31,7 @@ A Minacademy é uma plataforma de curso que aceita qualquer pessoa interessada e
 
 Os usuários terão que realizar as tarefas planejadas, em cada tarefa, o avaliador deverá ver se houveram dificuldades e anotá-las. Com base nisso o avaliador poderá sugerir melhorias para a solução.
 
-### Tarefa 1: Explorar a pagina inicial.
+### Tarefa 1: Explorar a página inicial.
 	- Acessar os links da navbar
 	- Clicar no botão da navbar para fazer cadastro
 
@@ -47,8 +48,8 @@ Os usuários terão que realizar as tarefas planejadas, em cada tarefa, o avalia
 ### Tarefa 5: Tutorial.
 	- Acessar o tutorial
 	
-### Tarefa 6: Modulo.
-	- Realizar as atividades de um modulo
+### Tarefa 6: Módulo.
+	- Realizar as atividades de um módulo
 
 ### Tarefa 6: Perfil.
 	- editar o perfil

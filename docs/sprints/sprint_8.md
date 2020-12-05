@@ -57,4 +57,4 @@ Rodrigo - sem justificativas
 
 ## Relato do Scrum Master
 
-A semana permanece com um resultado negativo no final, dado que MDS ainda não corrigiu sua postura. EPS tomou todas as medidas e correções que lhe cabiam, conforme relatos das sprints anteriores. O desequilíbrio de conhecimento de tecnologias do grupo ainda tem sido motivdo de reclamações, e deve ser tratado por cada um que esteja neste estado.
+A semana permanece com um resultado negativo no final, dado que MDS ainda não corrigiu sua postura. EPS tomou todas as medidas e correções que lhe cabiam, conforme relatos das sprints anteriores. O desequilíbrio de conhecimento de tecnologias do grupo ainda tem sido motivo de reclamações, e deve ser tratado por cada um que esteja neste estado.

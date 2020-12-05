@@ -24,7 +24,7 @@ Fez o login sem dificuldades
  
 Acho os links úteis pois facilitam o acesso à alguns links de forma mais rápida.
  
-Dentro da Dashboard se perguntou pq ela ja começava o tutorial com 12% concluido.
+Dentro da Dashboard se perguntou pq ela já começava o tutorial com 12% concluido.
  
 ### Tarefa 5: Tutorial.
  

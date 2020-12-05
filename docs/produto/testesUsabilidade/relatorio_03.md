@@ -3,12 +3,12 @@
 - Usuário: Julia Haick
 - Idade: 21
 - Tipo: estudante
-- Estado do site: possui pagina inicial, paginas de login, cadastro, dashboard, tutorial, editar perfil.
+- Estado do site: possui página inicial, páginas de login, cadastro, dashboard, tutorial, editar perfil.
 - Avaliador(a): Pedro
 
 ## Tarefas:
 
-### Tarefa 1: Explorar a página ínicial.
+### Tarefa 1: Explorar a página inicial.
 
 Gostou da estilização da página inicial.
 

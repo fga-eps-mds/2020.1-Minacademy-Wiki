@@ -65,7 +65,7 @@ Nenhuma
 - MDS fazer em pequenas entregas durante a semana para EPS identificar problemas logo cedo.
 - Fazer o PR mais cedo. 
 - Mais alinhamento para EPS.
-- Mais autocobrança e homogeniedade entre membros para MDS.
+- Mais autocobrança e homogeneidade entre membros para MDS.
 
 ## Relato do Scrum Master
 

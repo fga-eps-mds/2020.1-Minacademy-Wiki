@@ -5,19 +5,24 @@ Para realizar o teste funcional foi utilizado o **Cypress**, um framework de tes
 
 ## Cobertura do Teste
 
-!['Cobertura dos testes feita no dia 28/11/2020'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/cobertura.jpg 'Feita no dia 28/11/2020')
+- *01/12/2020*
+
+!['Cobertura dos testes feita no dia 01/12/2020'](cobertura.png 'Feita no dia 01/12/2020')
 
 ## Testes executados no projeto
 
-!['Teste de Aprendiz'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/gifs/Learner.gif)
+### Teste 1
+
+!['Teste de Aprendiz'](gifs/Learner.gif)
 
 - Fazer login com usuário não cadastrado
 - Fazer login com usuário do tipo aprendiz
-@@ -37,15 +37,15 @@ Para realizar o teste funcional foi utilizado o **Cypress**, um framework de tes
   - Acessar aba de certificados
   - Verificar certificados
 
-!['Teste de Mentor'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/gifs/Mentor.gif)
+### Teste 2
+
+!['Teste de Mentor'](gifs/Mentorship.gif)
 
 - Fazer login de usuário do tipo Mentor
   - Abrir e responder Avaliação
@@ -25,7 +30,9 @@ Para realizar o teste funcional foi utilizado o **Cypress**, um framework de tes
     - Conseguir ser aprovado
   - Abrir configurações de usuário
 
-!['Faze Cadastro na Plataforma'](https://github.com/fga-eps-mds/2020.1-Minacademy-Wiki/blob/102-testes-funcionais/docs/produto/testesFuncionais/gifs/Register.gif)
+### Teste 3
+
+!['Fazer Cadastro na Plataforma'](gifs/Register.gif)
 
 - Fazer cadastro na plataforma como Aprendiz
   - Escolher gênero masculino
@@ -34,4 +41,13 @@ Para realizar o teste funcional foi utilizado o **Cypress**, um framework de tes
     - Escolher tipo Mentor
   - Escolher gênero feminino
     - Escolher tipo aprendiz
+
+### Teste 4
+
+!['Abrir o chat da plataforma'](gifs/Chat.gif)
+
+- Abrir um chat
+
+### Teste 5
+
 - Abrir um certificado por link público

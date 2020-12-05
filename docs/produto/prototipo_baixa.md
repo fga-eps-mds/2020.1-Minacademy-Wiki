@@ -25,7 +25,6 @@ O usuário tem acesso ao Tutorial Interativo do Django Girls, contando com os se
 - **Lista de Atividades:** O usuário poderá ver quais atividades foram feitas, quais estão habilitadas para fazer e navegar por todas elas
 - **Ferramentas do Usuário:** O usuário poderá ver informações rápidas, como nome, pontos e barra de progressão do tutorial.Também tem acesso a ícones que redirecionam para respectivamente: Certificados, Fórum, Notificações, Opções de Mentoria e Configurações do Usuário
 - **Tutorial Interativa:** Onde o tutorial e atividades serão consumidos pelo usuário
-- **Rank:** Onde o usuário poderá ver o ranking de classificação de progresso na plataforma
 - **Chat com Mentor:** Caso o usuário escolha por ter um Mentor, haverá uma caixa de mensagens rápidas, para tirar dúvidas.
 
 ![](prototipo_baixa/03-tutorial.png "Tutorial Interativo")
@@ -68,14 +67,8 @@ A mesma interface sem o chat com mentor
 
 ![](prototipo_baixa/06-notificacao-sem-mentor.png)
 
-## Fórum
-
-O fórum é o local onde haverá dúvidas e soluções da comunidade, o usuário poderá pesquisar, criar e responder tópicos no fórum.
-
-![](prototipo_baixa/07-forum.png)
-
 ## Certificado
 
-Será substituido o local do tutorial interativo, pela lista dos certificados que o usuário possui, o mesmo poderá validar, compartilhar e salvar no dispositivos os certificados.
+Será substituído o local do tutorial interativo, pela lista dos certificados que o usuário possui, o mesmo poderá validar, compartilhar e salvar no dispositivos os certificados.
 
 ![](prototipo_baixa/08-certificado.png)

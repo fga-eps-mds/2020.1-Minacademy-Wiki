@@ -10,7 +10,7 @@ Recomendamos rodar o repositório localmente e checar se as alterações não qu
 
 
 ## Como Rodar
-Este repositório utliza o Mkdocs para testes locais. Você instalar em sua máquina e utilizar os comandos padrões do mkdocs. Porém, para facilitar o processo nós fornecemos um Makefile que utiliza o Docker.
+Este repositório utiliza o Mkdocs para testes locais. Você instalar em sua máquina e utilizar os comandos padrões do mkdocs. Porém, para facilitar o processo nós fornecemos um Makefile que utiliza o Docker.
 
 * Apenas no primeiro uso do repositório, compile a imagem com:<br>
 ```make build```

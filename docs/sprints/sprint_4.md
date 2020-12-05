@@ -74,7 +74,7 @@ Nenhuma
 
 ## Relato do Scrum Master
 
-Pela primeira vez todos os membros de MDS entregaram código, marcando o ínicio definitivo da fase de execução. Houve bastante dificuldade, porém tudo correu bem. Espera-se que as dificuldades diminuam para MDS a medida que as sprints passem, mas não foi visto como problema. Porém, o membro Jaime ainda tem dificuldades de se entregar 100% ao projeto e não conseguiu acompanhar o ritmo de desenvolvimento dos colegas e outros tiveram de assumir suas tarefas.
+Pela primeira vez todos os membros de MDS entregaram código, marcando o início definitivo da fase de execução. Houve bastante dificuldade, porém tudo correu bem. Espera-se que as dificuldades diminuam para MDS a medida que as sprints passem, mas não foi visto como problema. Porém, o membro Jaime ainda tem dificuldades de se entregar 100% ao projeto e não conseguiu acompanhar o ritmo de desenvolvimento dos colegas e outros tiveram de assumir suas tarefas.
 
 EPS teve mais sintonia nas decisões e monitorou bem o andamento durante a semana. MDS começou cedo porém com produtividade baixa. Isso é demonstrado pela comunicação mais escassa no início da sprint e que aumentou consideravelmente na sexta-feira. O pedido de EPS de pequenas entregas na semana não foi atendido e essa é uma melhoria que vem sendo pedida várias vezes. 
 

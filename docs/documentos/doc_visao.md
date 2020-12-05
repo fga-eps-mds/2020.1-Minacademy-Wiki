@@ -2,8 +2,9 @@
 
 **Data** | **Versão** | **Descrição** | **Autor**
 :---: | :---: | :--- | :---
-27/08 | 0.1 | Protótipo do Documento de Visão | Eduardo Picolo, Estevão Reis, Jaime Juan, Lucas Melo, Pedro Haick e Rodrigo Santos
-02/10 | 1.0 | Correções de texto e funcionalidades | Geovana
+27/08/2020 | 0.1 | Protótipo do Documento de Visão | Eduardo Picolo, Estevão Reis, Jaime Juan, Lucas Melo, Pedro Haick e Rodrigo Santos|
+02/10/2020 | 1.0 | Correções de texto e funcionalidades | Geovana|
+02/12/2020 | 1.0.1  | Correção de erros ortográficos| Estevão Reis|
 
 ## 1. Introdução
 
@@ -23,7 +24,7 @@ Produzido com base no processo RUP (Rational Unified Process), este documento é
 
 ### 2.1 Oportunidade de Negócios:
 
-Os eventos do Django Girls são workshops em que mentores se voluntariam para ajudar meninas a crieram um website Django. Muitas meninas participam desse evento sem nenhuma ideia do que é programar, e se apaixonam pela programação. O Django Girls acontece sempre presencialmente e não há uma plataforma específica para dar suporte a este tipo de evento, ou ate mesmo torná-lo inteiramente remoto.
+Os eventos do Django Girls são workshops em que mentores se voluntariam para ajudar meninas a criarem um website Django. Muitas meninas participam desse evento sem nenhuma ideia do que é programar, e se apaixonam pela programação. O Django Girls acontece sempre presencialmente e não há uma plataforma específica para dar suporte a este tipo de evento, ou até mesmo torná-lo inteiramente remoto.
 
 
 ### 2.2: Relato de Problema:
@@ -45,7 +46,7 @@ Clientes | Grupo de mentores e aprendizes da plataforma "Django Girls" | Informa
 
 _Nome_ | _Descrição_ |      |
 -------|-------------|------|
-Aprendizes do curso "Django Girls"| Mulheres interessadas em fazer o "Tutorial Django Girls. Irão utilizar a aplicação com o intuito de fazer todo o "Tutorial Django Girls" com auxilio de mentores de forma remota e no tempo em que desejar concluir todo ele|
+Aprendizes do curso "Django Girls"| Mulheres interessadas em fazer o "Tutorial Django Girls. Irão utilizar a aplicação com o intuito de fazer todo o "Tutorial Django Girls" com auxílio de mentores de forma remota e no tempo em que desejar concluir todo ele|
 Mentores da organização "Django Girls" |Irão utilizar a aplicação com o objetivo de dar suporte de forma remota às aprendizes, de acordo com a demanda |
 
 ### 3.3 Ambiente do Usuário:
@@ -90,7 +91,7 @@ Será necessário ter acesso a um computador desktop ou notebook com acesso a in
 |     	|    	|
 |--------|---------|
 |_Representantes_  | Mentores da plataforma Django Girls|
-|_Descrição_ | Os mentores são responsaveis por descrever como desejam a aplicação, suas funcionalidades, aparência, regra de negócio entre outros, periodicamente testando o produto, apontando os erros e validando a aplicação de modo geral |
+|_Descrição_ | Os mentores são responsáveis por descrever como desejam a aplicação, suas funcionalidades, aparência, regra de negócio entre outros, periodicamente testando o produto, apontando os erros e validando a aplicação de modo geral |
 |_Tipo_| - |
 |_Critérios de Sucesso_| Capacidade de conectar o mentor com um ou mais aprendizes de forma remota, tornando possível o auxílio do professor ao aluno a distância em um tempo flexível|
 |_Envolvimento_| Médio|

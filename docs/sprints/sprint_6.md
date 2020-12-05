@@ -69,7 +69,7 @@ Eduardo - sem justificativa
 
 ## Relato do Scrum Master
 
-Essa semana a equipe de desenvolvimento teve um péssimo desempenho. Observamos nos impedimentos que foi uma semana pesada de provas e outras coisas para MDS, além do fato que membros com mais dificuldade não ajudaram tanto. Entretando, MDS não deve deixar que isso resulte em não entregas e semanas pesadas devem ser avisadas com antecedência para EPS ter isso em mente no planejamento.
+Essa semana a equipe de desenvolvimento teve um péssimo desempenho. Observamos nos impedimentos que foi uma semana pesada de provas e outras coisas para MDS, além do fato que membros com mais dificuldade não ajudaram tanto. Entretanto, MDS não deve deixar que isso resulte em não entregas e semanas pesadas devem ser avisadas com antecedência para EPS ter isso em mente no planejamento.
 
 O pareamento visava unir membros com mais facilidade com os que tinham menos, porém a tática não funcionou e a disparidade só aumentou. Todos concordaram que pareamentos "nivelados" seriam mais positivos para o crescimento individual de cada MDS e, portanto isso será adotado por EPS.
 

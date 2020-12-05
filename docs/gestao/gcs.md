@@ -3,12 +3,13 @@
 | Data       | Versão | Descrição       | Autor              |
 | ----       | ------ | ---------       | -----              |
 | 29/09/2020 | 1.0    | Primeira Versão | Gabriela           |
-| 29/09/2020 | 1.1    | Correções e complementações de tópicos | Geovana           |
-| 16/10/2020 | 1.2   | Correções e complementações de tópicos | Geovana           |
+| 29/09/2020 | 1.1    | Correções e complementações de tópicos | Geovana|
+| 16/10/2020 | 1.2    | Correções e complementações de tópicos | Geovana|
+| 02/12/2020 | 1.2.1  | Correção de erros ortográficos| Estevão Reis|
 
 ## Commits
 
-Todos os commits devem ser atômicos e possuirem um título que demonstra resumidamente as alterações que foram feitas. Se o título não for suficiente para descrever as modificações, o commit também deve possuir uma descrição com a separação de uma linha do título. Além disso, deve haver o Co-authored-by de todos os colaborados do commit, caso mais de uma pessoa tenha trabalhado na alteração em conjunto.
+Todos os commits devem ser atômicos e possuírem um título que demonstra resumidamente as alterações que foram feitas. Se o título não for suficiente para descrever as modificações, o commit também deve possuir uma descrição com a separação de uma linha do título. Além disso, deve haver o Co-authored-by de todos os colaboradores do commit, caso mais de uma pessoa tenha trabalhado na alteração em conjunto.
 
 ```md
   Título do commit
@@ -50,13 +51,13 @@ O padrão de issue que é automaticamente carregado ao se criar uma issue no rep
 
 ### Features e Documentações
 
-Todas as branches criadas, exceto para bugfix, devem inciar com o número da issue, para rápida identificação.
+Todas as branches criadas, exceto para bugfix, devem iniciar com o número da issue, para rápida identificação.
 
 Exemplo:
 
 `55-nome-representativo-reduzido`
 
-No caso de issues feitas conjuntamente por serem dependentes, o número das duas issues verar vir antes como xx/xx-nome.
+No caso de issues feitas conjuntamente por serem dependentes, o número das duas issues deverá vir antes como xx/xx-nome.
 
 Para branches de documentos contínuos o nome deverá ser o nome da sprint.
 
