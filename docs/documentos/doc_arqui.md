@@ -9,6 +9,7 @@
 |11/09/2020| 0.4.0| Inserção do tópico Diagrama da Modelagem do Banco de Dados | Rodrigo e Estevão
 |02/10/2020| 1.0.0| Atualizando DER | Geovana
 |02/12/2020|1.0.1| Correção de erros ortográficos|Estevão Reis|
+|05/12/2020| 1.1.0| Inserção dos tópicos "2.1.3 Reselect", "2.2.3 Socket.IO" e descrição do diagrama Redux-React | Eduardo |
 
 ## 1.Introdução
 
@@ -91,11 +92,11 @@ Redux é um padrão e biblioteca para gerenciar e atualizar o estado do aplicati
 #### 2.1.3 Reselect
 
 Reselect é um biblioteca para construir *memoized* *selectors*, funções que recuperam trechos do estado do Redux para os componentes React. Usando o processo de *memoization*, é possível previnir rerenders desnecessarios e recalculações de dados derivados do Redux, o que irá melhorar a performance da aplicação.
-#### 2.1.3 Representação arquitetural da camada de apresentação
+#### 2.1.4 Representação arquitetural da camada de apresentação
 
 ![Representação-Arquitetura-React-Redux](https://miro.medium.com/max/512/1*Or0o-_dFsZe1ahMAC2yLZQ.png)[8]
 
-#### 2.1.4 Diagrama Redux-React
+#### 2.1.5 Diagrama Redux-React
 ![Diagrama do Redux](./imagens/diag-redux.png "Diagrama do Redux")[12]
 
 **Store**: A *Store* carrega toda a árvore de estados da aplicação. O único modo de alterar o estado é dispachando *Actions*.
