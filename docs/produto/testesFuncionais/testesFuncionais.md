@@ -11,43 +11,70 @@ Para realizar o teste funcional foi utilizado o **Cypress**, um framework de tes
 
 ## Testes executados no projeto
 
-### Teste 1
+### Teste do Login 
 
-!['Teste de Aprendiz'](gifs/Learner.gif)
+!['Teste do Login'](gifs/Login.gif)
 
-- Fazer login com usuário não cadastrado
+- tentar fazer login com usuário não cadastrado
 - Fazer login com usuário do tipo aprendiz
-  - Acessar aba de certificados
-  - Verificar certificados
 
-### Teste 2
+### Teste do Tutorial
 
-!['Teste de Mentor'](gifs/Mentorship.gif)
+!['Teste Tutorial'](gifs/Tutorial.gif)
 
-- Fazer login de usuário do tipo Mentor
-  - Abrir e responder Avaliação
-    - Fracassar na Avaliação
-    - Conseguir ser aprovado
-  - Abrir configurações de usuário
+- Acessar o tutorial
+  - Abrir e responder a última atividade restante de forma incorreta
+  - Responder a atividade corretamente
 
-### Teste 3
+
+### Teste da Avaliação Para Se Tornar Mentor
+
+!['Fazer Prova de Mentoria'](gifs/Exam.gif)
+
+- Fazer avaliação para validar mentor
+  - Fazer login com mentor
+  - Falhar na primeira tentativa da avaliação
+  - Passar na segunda tentativa da avaliação
+
+### Teste da funcionalidade Mentoria
+
+!['Teste Mentoria'](gifs/Mentorship.gif)
+
+- Acessar a página de mentoria
+    - Cancelar solicitação de mentor
+    - Solicitar mentor
+    - Clicar em desvincular
+    - Clicar em cancelar
+    - Clicar em desvincular novamente e confirmar fim do vínculo
+    - Solicitar um novo mentor
+
+### Teste do Cadastro
 
 !['Fazer Cadastro na Plataforma'](gifs/Register.gif)
 
 - Fazer cadastro na plataforma como Aprendiz
-  - Escolher gênero masculino
-    - Tentar fazer com dados errados
+  - Tentar fazer com dados inválidos
     - Tentar escolher tipo aprendiz
     - Escolher tipo Mentor
-  - Escolher gênero feminino
+  - Tentar fazer com dados válidos
+    - Escolher gênero feminino
     - Escolher tipo aprendiz
 
-### Teste 4
+### Teste do Chat
 
 !['Abrir o chat da plataforma'](gifs/Chat.gif)
 
 - Abrir um chat
+- Mandar uma mensagem
+### Teste da Pagina de Certificados
 
-### Teste 5
+  !['Acessar os certificados'](gifs/CertificateAccess.gif)
+
+  - Abrir um certificado por link público
+
+### Teste do Acesso de um Certificado 
+
+!['Abrir um certificado'](gifs/Certificate.gif)
 
 - Abrir um certificado por link público
+
