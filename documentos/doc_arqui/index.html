@@ -1,0 +1,1667 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
+    
+    
+      
+        <title>Documento de Arquitetura -  </title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#7e56c2">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="deep-purple" data-md-color-accent="deep-purple">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documento-de-arquitetura" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title=" " class="md-header-nav__button md-logo" aria-label=" ">
+      
+  <img src="../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+             
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Documento de Arquitetura
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title=" " class="md-nav__button md-logo" aria-label=" ">
+      
+  <img src="../../logo.png" alt="logo">
+
+    </a>
+     
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Início
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      Documentos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Documentos" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Documentos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doc_visao/" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Documento de Arquitetura
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Documento de Arquitetura
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1introducao" class="md-nav__link">
+    1.Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1.Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11finalidade" class="md-nav__link">
+    1.1.Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12escopo" class="md-nav__link">
+    1.2.Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13definicoes-acronimos-abreviacoes" class="md-nav__link">
+    1.3.Definições, acrônimos, abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14referencias-bibliograficas" class="md-nav__link">
+    1.4.Referências Bibliográficas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15visao-geral" class="md-nav__link">
+    1.5.Visão Geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2representacao-da-arquitetura" class="md-nav__link">
+    2.Representação da Arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Representação da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21camada-de-apresentacao-front-end" class="md-nav__link">
+    2.1.Camada de apresentação (Front-end)
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.Camada de apresentação (Front-end)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-react" class="md-nav__link">
+    2.1.1 React
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-redux" class="md-nav__link">
+    2.1.2 Redux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-reselect" class="md-nav__link">
+    2.1.3 Reselect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#214-representacao-arquitetural-da-camada-de-apresentacao" class="md-nav__link">
+    2.1.4 Representação arquitetural da camada de apresentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#215-diagrama-redux-react" class="md-nav__link">
+    2.1.5 Diagrama Redux-React
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22camada-de-negocio-back-end" class="md-nav__link">
+    2.2.Camada de negócio (Back-end)
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2.Camada de negócio (Back-end)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-node" class="md-nav__link">
+    2.2.1 Node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-express" class="md-nav__link">
+    2.2.2 Express
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#223-socketio" class="md-nav__link">
+    2.2.3 Socket.IO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23camada-de-dados" class="md-nav__link">
+    2.3.Camada de Dados
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.Camada de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-mongodb" class="md-nav__link">
+    2.3.1 MongoDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-modelagem-do-banco-de-dados" class="md-nav__link">
+    2.3.2 Modelagem do Banco de Dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-diagrama-de-relacoes" class="md-nav__link">
+    2.4 Diagrama de Relações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-diagrama-de-pacotes" class="md-nav__link">
+    2.5 Diagrama de Pacotes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metas-e-restricoes-da-arquitetura" class="md-nav__link">
+    3. Metas e Restrições da Arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Metas e Restrições da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-usabilidade" class="md-nav__link">
+    3.1 Usabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-portabilidade" class="md-nav__link">
+    3.2 Portabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-restricoes-de-design" class="md-nav__link">
+    3.3 Restrições de Design
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-tamanho-e-desempenho" class="md-nav__link">
+    4. Tamanho e Desempenho
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doc_esp-suplementar/" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tap/" class="md-nav__link">
+      Termo de Abertura do Projeto
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Produto
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Produto" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Produto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/roadmaps/" class="md-nav__link">
+      Roadmaps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/product_backlog/" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/prototipo_baixa/" class="md-nav__link">
+      Protótipo de Baixa Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/prototipo_alta/" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" >
+    <label class="md-nav__link" for="nav-3-5">
+      1º Teste de Usabilidade
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1º Teste de Usabilidade" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        <span class="md-nav__icon md-icon"></span>
+        1º Teste de Usabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/introducao/" class="md-nav__link">
+      Introdução
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/relatorio_01/" class="md-nav__link">
+      Relatório 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/relatorio_02/" class="md-nav__link">
+      Relatório 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/relatorio_03/" class="md-nav__link">
+      Relatório 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/relatorio_04/" class="md-nav__link">
+      Relatório 4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade/relatorio_05/" class="md-nav__link">
+      Relatório 5
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6" >
+    <label class="md-nav__link" for="nav-3-6">
+      2º Teste de Usabilidade
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="2º Teste de Usabilidade" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-6">
+        <span class="md-nav__icon md-icon"></span>
+        2º Teste de Usabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade2/introducao/" class="md-nav__link">
+      Introdução
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade2/relatorio_01/" class="md-nav__link">
+      Relatório 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade2/relatorio_02/" class="md-nav__link">
+      Relatório 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesUsabilidade2/relatorio_03/" class="md-nav__link">
+      Relatório 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../produto/testesFuncionais/testesFuncionais/" class="md-nav__link">
+      Teste Funcional
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      Gestão de Projeto
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Gestão de Projeto" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Gestão de Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/plano_comunicacao/" class="md-nav__link">
+      Plano de Comunicação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/plano_riscos/" class="md-nav__link">
+      Plano de Gestão de Riscos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/plano_custos/" class="md-nav__link">
+      Plano de Custos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/evm/" class="md-nav__link">
+      Análise de Valor Agregado
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    <label class="md-nav__link" for="nav-5">
+      Gestão de Software
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Gestão de Software" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Gestão de Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/devops/" class="md-nav__link">
+      Plano de DevOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/gcs/" class="md-nav__link">
+      Plano de Gestão do Repositório
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gestao/qualidade/" class="md-nav__link">
+      Plano de Qualidade
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+    <label class="md-nav__link" for="nav-6">
+      Sprints
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sprints" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Sprints
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_1/" class="md-nav__link">
+      Sprint 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_2/" class="md-nav__link">
+      Sprint 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_3/" class="md-nav__link">
+      Sprint 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_4/" class="md-nav__link">
+      Sprint 4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_5/" class="md-nav__link">
+      Sprint 5
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_6/" class="md-nav__link">
+      Sprint 6
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_7/" class="md-nav__link">
+      Sprint 7
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_8/" class="md-nav__link">
+      Sprint 8
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_9/" class="md-nav__link">
+      Sprint 9
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_10/" class="md-nav__link">
+      Sprint 10
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_11/" class="md-nav__link">
+      Sprint 11
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_12/" class="md-nav__link">
+      Sprint 12
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_13/" class="md-nav__link">
+      Sprint 13
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_14/" class="md-nav__link">
+      Sprint 14
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_15/" class="md-nav__link">
+      Sprint 15
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/sprint_16/" class="md-nav__link">
+      Sprint 16
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../apresentacoes/" class="md-nav__link">
+      Apresentações
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1introducao" class="md-nav__link">
+    1.Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="1.Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11finalidade" class="md-nav__link">
+    1.1.Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12escopo" class="md-nav__link">
+    1.2.Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13definicoes-acronimos-abreviacoes" class="md-nav__link">
+    1.3.Definições, acrônimos, abreviações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14referencias-bibliograficas" class="md-nav__link">
+    1.4.Referências Bibliográficas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15visao-geral" class="md-nav__link">
+    1.5.Visão Geral
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2representacao-da-arquitetura" class="md-nav__link">
+    2.Representação da Arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="2.Representação da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21camada-de-apresentacao-front-end" class="md-nav__link">
+    2.1.Camada de apresentação (Front-end)
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1.Camada de apresentação (Front-end)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#211-react" class="md-nav__link">
+    2.1.1 React
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-redux" class="md-nav__link">
+    2.1.2 Redux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-reselect" class="md-nav__link">
+    2.1.3 Reselect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#214-representacao-arquitetural-da-camada-de-apresentacao" class="md-nav__link">
+    2.1.4 Representação arquitetural da camada de apresentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#215-diagrama-redux-react" class="md-nav__link">
+    2.1.5 Diagrama Redux-React
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22camada-de-negocio-back-end" class="md-nav__link">
+    2.2.Camada de negócio (Back-end)
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2.Camada de negócio (Back-end)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-node" class="md-nav__link">
+    2.2.1 Node
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-express" class="md-nav__link">
+    2.2.2 Express
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#223-socketio" class="md-nav__link">
+    2.2.3 Socket.IO
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23camada-de-dados" class="md-nav__link">
+    2.3.Camada de Dados
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.Camada de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-mongodb" class="md-nav__link">
+    2.3.1 MongoDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-modelagem-do-banco-de-dados" class="md-nav__link">
+    2.3.2 Modelagem do Banco de Dados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-diagrama-de-relacoes" class="md-nav__link">
+    2.4 Diagrama de Relações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-diagrama-de-pacotes" class="md-nav__link">
+    2.5 Diagrama de Pacotes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metas-e-restricoes-da-arquitetura" class="md-nav__link">
+    3. Metas e Restrições da Arquitetura
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Metas e Restrições da Arquitetura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-usabilidade" class="md-nav__link">
+    3.1 Usabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-portabilidade" class="md-nav__link">
+    3.2 Portabilidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-restricoes-de-design" class="md-nav__link">
+    3.3 Restrições de Design
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-tamanho-e-desempenho" class="md-nav__link">
+    4. Tamanho e Desempenho
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>03/09/2020</td>
+<td>0.1.0</td>
+<td>Inserção dos tópicos de "Introdução" e "Representação da Arquitetura"</td>
+<td>Estevão</td>
+</tr>
+<tr>
+<td>03/09/2020</td>
+<td>0.2.0</td>
+<td>Inserção do tópico "Tamanho e Desempenho"</td>
+<td>Eduardo</td>
+</tr>
+<tr>
+<td>03/09/2020</td>
+<td>0.3.0</td>
+<td>Inserção do tópico "Metas e Restrições da Arquitetura"</td>
+<td>Eduardo</td>
+</tr>
+<tr>
+<td>04/09/2020</td>
+<td>0.3.1</td>
+<td>Correções de formatação de Referência e Inserção de imagens nos tópicos "2.1.3 Representação arquitetural da camada de apresentação" e "2.4.Diagrama de Relações"</td>
+<td>Estevão</td>
+</tr>
+<tr>
+<td>11/09/2020</td>
+<td>0.4.0</td>
+<td>Inserção do tópico Diagrama da Modelagem do Banco de Dados</td>
+<td>Rodrigo e Estevão</td>
+</tr>
+<tr>
+<td>02/10/2020</td>
+<td>1.0.0</td>
+<td>Atualizando DER</td>
+<td>Geovana</td>
+</tr>
+<tr>
+<td>02/12/2020</td>
+<td>1.0.1</td>
+<td>Correção de erros ortográficos</td>
+<td>Estevão Reis</td>
+</tr>
+<tr>
+<td>05/12/2020</td>
+<td>1.1.0</td>
+<td>Inserção dos tópicos "2.1.3 Reselect", "2.2.3 Socket.IO" e descrição do diagrama Redux-React</td>
+<td>Eduardo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1introducao">1.Introdução</h2>
+<h3 id="11finalidade">1.1.Finalidade</h3>
+<p>Este documento tem como finalidade apresentar a arquitetura do projeto Minacademy,oferecendo uma visão geral arquitetural do sistema que será implementado, possibilitando assim que os envolvidos no projeto tenham conhecimento de como a aplicação será subdivida e quais serão as funções de cada componente.</p>
+<h3 id="12escopo">1.2.Escopo</h3>
+<p>Este documento apresenta as características arquiteturais do projeto Minacademy, expondo detalhadamente as soluções arquiteturais idealizadas e estabelecidas para o projeto, de modo a ser utilizado como base para a edificação do projeto pelos desenvolvedores designados para o projeto.</p>
+<h3 id="13definicoes-acronimos-abreviacoes">1.3.Definições, acrônimos, abreviações</h3>
+<table>
+<thead>
+<tr>
+<th>Definições/Acrônimos/Abreviações</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MERN</td>
+<td>MongoDB, Express, React, Node</td>
+</tr>
+<tr>
+<td>MC</td>
+<td>Model Controller</td>
+</tr>
+<tr>
+<td>UI</td>
+<td>User Interface (Interface do Usuário)</td>
+</tr>
+<tr>
+<td>GUI</td>
+<td>Graphical User Interface</td>
+</tr>
+<tr>
+<td>MVC</td>
+<td>Model View Controller</td>
+</tr>
+</tbody>
+</table>
+<h3 id="14referencias-bibliograficas">1.4.Referências Bibliográficas</h3>
+<p>[1]<em>Modelo em três camadas</em>. Disponível em <a href="https://pt.wikipedia.org/wiki/Modelo_em_tr%C3%AAs_camadas">https://pt.wikipedia.org/wiki/Modelo_em_tr%C3%AAs_camadas</a>.Acesso em 03 de Setembro de 2020.</p>
+<p>[2]<em>MERN Stack</em>. Disponível em <a href="https://www.mongodb.com/mern-stack">https://www.mongodb.com/mern-stack</a>. Acesso em 02 de Setembro de 2020</p>
+<p>[3]<em>Tutorial: Introdução ao React</em>. Disponível em <a href="https://pt-br.reactjs.org/tutorial/tutorial.html">https://pt-br.reactjs.org/tutorial/tutorial.html</a>. Acesso em 03 de Setembro de 2020</p>
+<p>[4]<em>Redux Essentials, Part 1: Redux Overview and Concepts</em>. Disponível em <a href="https://redux.js.org/tutorials/essentials/part-1-overview-concepts">https://redux.js.org/tutorials/essentials/part-1-overview-concepts</a>. Acesso em 03 de Setembro de 2020.</p>
+<p>[5]<em>Node.js – O que é, como funciona e quais as vantagens</em>. Disponível em <a href="https://www.opus-software.com.br/node-js/">https://www.opus-software.com.br/node-js/</a>. Acesso em 04 de Setembro de 2020.</p>
+<p>[6]<em>Express Framework web rápido, flexível e minimalista para Node.js</em>. Disponível em <a href="https://expressjs.com/pt-br/">https://expressjs.com/pt-br/</a>. Acesso em 03 de Setembro de 2020.</p>
+<p>[7]<em>MongoDB</em>. Disponível em <a href="https://pt.wikipedia.org/wiki/MongoDB">https://pt.wikipedia.org/wiki/MongoDB</a>. Acesso em 03 de Setembro de 2020.</p>
+<p>[8]<em>Elm architecture with React + Redux + Redux-loop</em>. Disponível em <a href="https://smallbusinessforum.co/elm-architecture-with-react-redux-redux-loop-645a67070b1a">https://smallbusinessforum.co/elm-architecture-with-react-redux-redux-loop-645a67070b1a</a>. Acesso em 03 de Setembro de 2020.</p>
+<p>[9]<em>MVC</em>. Disponível em <a href="https://pt.wikipedia.org/wiki/MVC#:~:text=MVC%20%C3%A9%20o%20acr%C3%B4nimo%20de,a%20apresenta%C3%A7%C3%A3o%20dos%20dados%20e">https://pt.wikipedia.org/wiki/MVC#:~:text=MVC%20%C3%A9%20o%20acr%C3%B4nimo%20de,a%20apresenta%C3%A7%C3%A3o%20dos%20dados%20e</a>. Acesso em 04 de Setembro de 2020.</p>
+<p>[10]<em>diag-bd</em>. Disponível na pasta do projeto em <a href="https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-bd.png">https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-bd.png</a> Acesso em 11 de Setembro de 2020.</p>
+<p>[11]<em>diag-arqui</em>. Disponível na pasta do projeto em <a href="https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-arqui.png">https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-arqui.png</a> Acesso em 11 de Setembro de 2020</p>
+<p>[12]<em>diag-redux</em>. Disponível na pasta do projeto em <a href="https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-redux.png">https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-redux.png</a> Acesso em 04 de Dezembro de 2020</p>
+<p>[13]<em>diag-pack</em>. Disponível na pasta do projeto em <a href="https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-pack.png">https://github.com/fga-eps-mds/2020.1-Grupo4/blob/master/docs/documentos/imagens/diag-pack.png</a> Acesso em 04 de Dezembro de 2020</p>
+<h3 id="15visao-geral">1.5.Visão Geral</h3>
+<table>
+<thead>
+<tr>
+<th>Tópico</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Introdução</td>
+<td>Fornece uma visão geral do documento inteiro, descrevendo informações sobre a sua finalidade</td>
+</tr>
+<tr>
+<td>Representação Arquitetural</td>
+<td>Traz o detalhamento da arquitetura de software do sistema para melhor entendimento de sua estrutura e funcionamento. Além de apresentar o modo como ela está sendo representada.</td>
+</tr>
+<tr>
+<td>Metas e Restrições</td>
+<td>Detalha os requisitos e objetivos do software que têm algum impacto sobre a arquitetura. Ela também captura as restrições especiais que podem ser aplicáveis.</td>
+</tr>
+<tr>
+<td>Visão lógica</td>
+<td>Retrata as partes relevantes concernente à arquitetura do modelo de design.</td>
+</tr>
+<tr>
+<td>Visão de implementação</td>
+<td>Descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2representacao-da-arquitetura">2.Representação da Arquitetura</h2>
+<p>A arquitetura do projeto <strong>minacademy</strong> é composta por frontend e backend desacoplados, cada um possuindo seu próprio repositório. Por consequência desse desacoplamento, o risco de uma mudança em um dos dois não causará efeitos colaterais na implementação do outro. O modelo de arquitetura que será utilizada é Modelo em 3 Camadas(3-Tier), expecificamente o modelo MERN Stack.</p>
+<p>O modelo 3-Tier, derivado do modelo 'n' camadas, organizando a aplicação nas camadas de apresentação, de negócio e de dados. A separação em camadas lógicas torna os sistemas mais flexíveis, permitindo que as partes possam ser alteradas de forma independente. As funcionalidades da camada de negócio podem ser divididas em classes e essas classes podem ser agrupadas em pacotes ou componentes, reduzindo as dependências entre as classes e pacotes; podem ser reutilizadas por diferentes partes do aplicativo e até por aplicativos diferentes. O modelo de 3 camadas tornou-se a arquitetura padrão para sistemas corporativos com base na Web.[1]</p>
+<p>MERN é o acrônimo para MongoDB, Express, React, Node, nome das quatro tecnologias principais que compõem a stack. A arquitetura MERN permite que você construa facilmente uma arquitetura de 3 camadas (front-end, back-end, banco de dados) inteiramente usando JavaScript e JSON[2].</p>
+<h3 id="21camada-de-apresentacao-front-end">2.1.Camada de apresentação (Front-end)</h3>
+<p>É a chamada GUI, ou simplesmente interface. Esta camada interage diretamente com o usuário, é através dela que são feitas as requisições como consultas, por exemplo. Nessa camada são utilizadas as tecnologias React em conjunto com a Redux.[1]</p>
+<h4 id="211-react">2.1.1 React</h4>
+<p>O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”[3].</p>
+<h4 id="212-redux">2.1.2 Redux</h4>
+<p>Redux é um padrão e biblioteca para gerenciar e atualizar o estado do aplicativo, usando eventos chamados "ações". Ele serve como um armazenamento centralizado para o estado que precisa ser usado em todo o seu aplicativo, com regras que garantem que o estado só possa ser atualizado de maneira previsível.[4]</p>
+<h4 id="213-reselect">2.1.3 Reselect</h4>
+<p>Reselect é um biblioteca para construir <em>memoized</em> <em>selectors</em>, funções que recuperam trechos do estado do Redux para os componentes React. Usando o processo de <em>memoization</em>, é possível previnir rerenders desnecessarios e recalculações de dados derivados do Redux, o que irá melhorar a performance da aplicação.</p>
+<h4 id="214-representacao-arquitetural-da-camada-de-apresentacao">2.1.4 Representação arquitetural da camada de apresentação</h4>
+<p><img alt="Representação-Arquitetura-React-Redux" src="https://miro.medium.com/max/512/1*Or0o-_dFsZe1ahMAC2yLZQ.png" />[8]</p>
+<h4 id="215-diagrama-redux-react">2.1.5 Diagrama Redux-React</h4>
+<p><img alt="Diagrama do Redux" src="../imagens/diag-redux.png" title="Diagrama do Redux" />[12]</p>
+<p><strong>Store</strong>: A <em>Store</em> carrega toda a árvore de estados da aplicação. O único modo de alterar o estado é dispachando <em>Actions</em>.</p>
+<p><strong>Action</strong>: São <em>payloads</em> de informação que enviam dados da aplicação para a <em>Store</em>. Elas são a única fonte de informação para a <em>Store</em>.</p>
+<p><strong>Reducer</strong>: Cria um bloco independente de estado e especifica como esse estado deve ser alterado em resposta a uma <em>Action</em>.</p>
+<p><strong>Container</strong>: Faz a conexão entre a aplicação e a <em>Store</em> do Redux, gerencia eventos e fornece o estado.</p>
+<p><strong>Selector</strong>:  Uma função que recebe estado como argumento e retorna dados derivados do mesmo. <em>Selectors</em> criados usando a biblioteca Reselect podem ser usados para computar dados derivados de maneira mais eficiente.</p>
+<p><strong>Template</strong>: É o conjunto das partes menores da aplicação, os componentes têm somente uma responsabilidade e não possuem estado.</p>
+<h3 id="22camada-de-negocio-back-end">2.2.Camada de negócio (Back-end)</h3>
+<p>Também chamada de lógica empresarial, regras de negócio ou funcionalidade. É nela que ficam as funções e regras de todo o negócio. Não existe uma interface para o usuário e seus dados são voláteis[1]. Nessa camada são utilizadas as tecnologias Node em conjunto com Express</p>
+<h4 id="221-node">2.2.1 Node</h4>
+<p>O Node.js pode ser definido como um ambiente de execução Javascript server-side.Isso significa que com o Node.js é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina, não dependendo de um browser para a execução[5]. Na aplicação o node fará uso da arquitetura MC, proveniente da arquitetura MVC, excluindo a parte V que lida com a interface do usuário, a tecnologia React será responsável por essa parte.</p>
+<p>MVC é o acrônimo de Model-View-Controller (em português: Arquitetura Modelo-Visão-Controle - MVC) é um padrão de projeto de software,ou padrão de arquitetura de software, focado no reuso de código e a separação de conceitos em três camadas interconectadas, onde a apresentação dos dados e interação dos usuários (front-end) são separados dos métodos que interagem com o banco de dados (back-end).[9]</p>
+<h4 id="222-express">2.2.2 Express</h4>
+<p>O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel[6].</p>
+<h4 id="223-socketio">2.2.3 Socket.IO</h4>
+<p>SocketIO é uma biblioteca JavaScript para aplicativos da web em tempo real. Permite comunicação bidirecional em tempo real entre clientes e servidores da Web. Ele tem duas partes: uma biblioteca do lado do cliente que é executada no navegador e uma biblioteca do lado do servidor para o Node.js.</p>
+<h3 id="23camada-de-dados">2.3.Camada de Dados</h3>
+<p>É composta pelo repositório das informações e as classes que as manipulam. Esta camada recebe as requisições da camada de negócios e seus métodos executam essas requisições em um banco de dados[1]. Nessa câmara é utilizada a tecnologia MongoDB.</p>
+<h4 id="231-mongodb">2.3.1 MongoDB</h4>
+<p>MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB armazena dados em documentos do tipo JSON. Suas características permitem com que as aplicações modelem informações de modo muito mais natural, pois os dados podem ser aninhados em hierarquias complexas e continuar a ser indexáveis e fáceis de buscar[7].</p>
+<h4 id="232-modelagem-do-banco-de-dados">2.3.2 Modelagem do Banco de Dados</h4>
+<p><img alt="Diagrama-de-modelagem-do-Banco-de-Dados" src="../imagens/diag-bd.png" title="Diagrama do Banco de Dados" />[10]</p>
+<h3 id="24-diagrama-de-relacoes">2.4 Diagrama de Relações</h3>
+<p><img alt="Diagrama-de-Arquitetura-de-Software" src="../imagens/diag-arqui.png" />[11]</p>
+<h3 id="25-diagrama-de-pacotes">2.5 Diagrama de Pacotes</h3>
+<ul>
+<li>Back-End</li>
+</ul>
+<p><img alt="Diagrama-de-Pacotes" src="../imagens/diag-pack.png" />[13]</p>
+<ul>
+<li>Front-End</li>
+</ul>
+<h2 id="3-metas-e-restricoes-da-arquitetura">3. Metas e Restrições da Arquitetura</h2>
+<h3 id="31-usabilidade">3.1 Usabilidade</h3>
+<p>A aplicação contará com design responsivo, tendo um bom ajuste e posicionamento dos elementos em tela, com uma interface clara e intuitiva.</p>
+<h3 id="32-portabilidade">3.2 Portabilidade</h3>
+<p>A aplicação poderá ser acessada através de um navegador como, por exemplo,  Mozilla Firefox ou Google Chrome.</p>
+<h3 id="33-restricoes-de-design">3.3 Restrições de Design</h3>
+<p>A aplicação ser desenvolvida em JavaScript, HTML e CSS, utilizando os frameworks NodeJS e ReactJS, e deve ser modelada para o banco MongoDB.</p>
+<p>O projeto deve ser estruturado nos padrões da arquitetura em 3 camadas(3-Tier), mais especificamente a arquitetura MERN, com as camadas de “Apresentação”, “Negócio” e “Dados”.</p>
+<p>Capaz de sofrer alterações e implementações tanto no Back-End quanto o Front-End.</p>
+<h2 id="4-tamanho-e-desempenho">4. Tamanho e Desempenho</h2>
+<p>A arquitetura foi planejada para que a aplicação atenda de forma satisfatória os requisitos do produto e permita uma fácil implementação e expansão de funcionalidades, sem a necessidade de dimensionar todo o sistema.</p>
+<p>Na aplicação será abordado o conceito de SPA(Single-Page-Application), que possibilita a renderização dinâmica de conteúdo ao contrário de um carregamento completo da página, reduzindo o tempo de espera e proporcionando uma melhor e mais fluida experiência para o usuário.</p>
+<p>O tempo de resposta da aplicação web irá depender da velocidade de conexão com a internet do usuário e da a conexão com o banco de dados, assim como a disponibilidade do servidor.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../doc_visao/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Documento de Visão
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../doc_esp-suplementar/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Especificação Suplementar
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
